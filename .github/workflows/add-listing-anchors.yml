@@ -1,4 +1,4 @@
-name: Maintain MKT Colorado site consistency
+name: Maintain MKT Colorado listing anchors and external links
 on:
   push:
     branches: [main]
@@ -11,16 +11,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Normalize site shell, listing anchors and external links
+      - name: Maintain listing anchors and external links only
         run: |
           python - <<'PY'
           import re, pathlib, unicodedata
           from urllib.parse import urlparse
-
-          index=pathlib.Path('index.html').read_text(encoding='utf-8')
-          header=re.search(r'<header class="site-header">.*?</header>',index,re.S).group(0)
-          footer=re.search(r'<footer>.*?</footer>',index,re.S).group(0)
-          shell_css='''<style id="mkt-shell-style">.site-header{position:sticky;top:0;z-index:50;background:#fff;border-bottom:1px solid #e5eaed}.navbar{max-width:1450px;margin:auto;padding:8px 22px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{display:flex;align-items:center;text-decoration:none;color:#08283d}.brand-mark{width:68px;height:68px;border-radius:50%;object-fit:cover}.brand-copy{margin-left:12px}.brand-copy strong{display:block;font-size:23px}.brand-copy small{color:#f59a00;font-size:9px;font-weight:bold}.nav-links{display:flex;gap:15px;align-items:center;flex-wrap:wrap}.nav-links a{text-decoration:none;color:#08283d;font-size:12px;font-weight:bold}.nav-contact{background:linear-gradient(135deg,#007eed,#159b63);color:#fff!important;border-radius:7px;padding:12px 17px}footer{background:#08283d;color:#fff;padding:45px 25px 20px;border-top:6px solid #f59a00}.footer-grid{max-width:1150px;margin:auto;display:grid;grid-template-columns:1.45fr .8fr 1.15fr;gap:55px}.footer-links a,footer a{color:#fff}.footer-links a{display:block;text-decoration:none;margin:7px 0}.footer-bottom{text-align:center;margin-top:35px;font-size:12px}.mkt-partner-row{display:flex;gap:15px;align-items:center}.mkt-partner-logo{width:65px;height:65px;object-fit:cover}@media(max-width:1120px){.navbar{flex-direction:column}}@media(max-width:700px){.footer-grid{grid-template-columns:1fr}}</style>'''
 
           def slug(s):
               s=unicodedata.normalize('NFKD',s).encode('ascii','ignore').decode().lower()
@@ -30,37 +25,41 @@ jobs:
           def external_links_new_tab(text):
               pat=re.compile(r'<a\b([^>]*?\bhref=["\'](https?://[^"\']+)["\'][^>]*)>',re.I)
               def repl(m):
-                  attrs,url=m.group(1),m.group(2); host=(urlparse(url).hostname or '').lower()
-                  if host=='mktvisibility.github.io' and urlparse(url).path.startswith('/Colorado'): return m.group(0)
-                  if re.search(r'\btarget\s*=\s*["\'][^"\']*["\']',attrs,re.I): attrs=re.sub(r'\btarget\s*=\s*["\'][^"\']*["\']','target="_blank"',attrs,flags=re.I)
-                  else: attrs+=' target="_blank"'
-                  if 'rel=' not in attrs.lower(): attrs+=' rel="noopener noreferrer"'
+                  attrs,url=m.group(1),m.group(2)
+                  host=(urlparse(url).hostname or '').lower()
+                  if host=='mktvisibility.github.io' and urlparse(url).path.startswith('/Colorado'):
+                      return m.group(0)
+                  if re.search(r'\btarget\s*=\s*["\'][^"\']*["\']',attrs,re.I):
+                      attrs=re.sub(r'\btarget\s*=\s*["\'][^"\']*["\']','target="_blank"',attrs,flags=re.I)
+                  else:
+                      attrs+=' target="_blank"'
+                  if 'rel=' not in attrs.lower():
+                      attrs+=' rel="noopener noreferrer"'
                   return '<a'+attrs+'>'
               return pat.sub(repl,text)
 
           for p in pathlib.Path('.').glob('*.html'):
-              if p.name in ('index.html','anchor-update-trigger.html'): continue
+              if p.name=='anchor-update-trigger.html':
+                  continue
               text=p.read_text(encoding='utf-8')
               new=text
-              # Remove every existing site header, then insert exactly one master header after <body>.
-              new=re.sub(r'<header\b[^>]*class=["\'][^"\']*site-header[^"\']*["\'][^>]*>.*?</header>\s*','',new,flags=re.S|re.I)
-              if '<body' in new:
-                  new=re.sub(r'(<body[^>]*>)',r'\1'+header,new,count=1,flags=re.I)
-              # Remove every existing footer, then insert exactly one master footer before </body>.
-              new=re.sub(r'<footer\b[^>]*>.*?</footer>\s*','',new,flags=re.S|re.I)
-              new=re.sub(r'</body>',footer+'</body>',new,count=1,flags=re.I)
-              new=re.sub(r'<style id="mkt-shell-style">.*?</style>','',new,flags=re.S)
-              new=new.replace('</head>',shell_css+'</head>',1)
               used=set(re.findall(r'\bid="([^"]+)"',new))
               pat=re.compile(r'<article class="card"(?![^>]*\bid=)([^>]*)>(.*?)(</article>)',re.S)
               def addid(m):
                   h=re.search(r'<h3[^>]*>(.*?)</h3>',m.group(2),re.S)
-                  if not h:return m.group(0)
-                  base=slug(h.group(1)) or 'listing'; ident=base; n=2
-                  while ident in used: ident=f'{base}-{n}'; n+=1
-                  used.add(ident); return f'<article class="card" id="{ident}"{m.group(1)}>{m.group(2)}{m.group(3)}'
+                  if not h:
+                      return m.group(0)
+                  base=slug(h.group(1)) or 'listing'
+                  ident=base
+                  n=2
+                  while ident in used:
+                      ident=f'{base}-{n}'
+                      n+=1
+                  used.add(ident)
+                  return f'<article class="card" id="{ident}"{m.group(1)}>{m.group(2)}{m.group(3)}'
               new=external_links_new_tab(pat.sub(addid,new))
-              if new!=text:p.write_text(new,encoding='utf-8')
+              if new!=text:
+                  p.write_text(new,encoding='utf-8')
           PY
       - name: Commit maintained HTML
         run: |
@@ -68,5 +67,5 @@ jobs:
           git config user.name 'MKT Colorado Site Bot'
           git config user.email 'actions@users.noreply.github.com'
           git add '*.html'
-          git commit -m 'Standardize MKT Colorado header and footer'
+          git commit -m 'Maintain listing anchors and external links'
           git push
