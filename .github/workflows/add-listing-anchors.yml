@@ -1,4 +1,4 @@
-name: Add listing anchors
+name: Maintain MKT Colorado links and anchors
 on:
   push:
     branches: [main]
@@ -7,19 +7,47 @@ on:
 permissions:
   contents: write
 jobs:
-  anchors:
+  maintain:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Add unique IDs to listing cards
+      - name: Add listing anchors and secure external-link targets
         run: |
           python - <<'PY'
           import re, pathlib, unicodedata
+          from urllib.parse import urlparse
+
           def slug(s):
               s=unicodedata.normalize('NFKD',s).encode('ascii','ignore').decode().lower()
               s=re.sub(r'<[^>]+>',' ',s)
               s=re.sub(r'[^a-z0-9]+','-',s).strip('-')
               return s
+
+          def external_links_new_tab(text):
+              pattern=re.compile(r'<a\b([^>]*?\bhref=["\'](https?://[^"\']+)["\'][^>]*)>', re.I)
+              def repl(m):
+                  attrs=m.group(1)
+                  url=m.group(2)
+                  host=(urlparse(url).hostname or '').lower()
+                  # Absolute links back to MKT Colorado remain in the same tab.
+                  if host == 'mktvisibility.github.io' and urlparse(url).path.startswith('/Colorado'):
+                      return m.group(0)
+                  if re.search(r'\btarget\s*=\s*["\'][^"\']*["\']', attrs, re.I):
+                      attrs=re.sub(r'\btarget\s*=\s*["\'][^"\']*["\']', 'target="_blank"', attrs, flags=re.I)
+                  else:
+                      attrs += ' target="_blank"'
+                  if re.search(r'\brel\s*=\s*["\']([^"\']*)["\']', attrs, re.I):
+                      def relfix(r):
+                          vals=r.group(1).split()
+                          for v in ('noopener','noreferrer'):
+                              if v not in vals: vals.append(v)
+                          return 'rel="'+' '.join(vals)+'"'
+                      attrs=re.sub(r'\brel\s*=\s*["\']([^"\']*)["\']', relfix, attrs, flags=re.I)
+                  else:
+                      attrs += ' rel="noopener noreferrer"'
+                  return '<a'+attrs+'>'
+              return pattern.sub(repl,text)
+
           for p in pathlib.Path('.').glob('*.html'):
               text=p.read_text(encoding='utf-8')
               used=set(re.findall(r'\bid="([^"]+)"',text))
@@ -35,14 +63,15 @@ jobs:
                   used.add(ident)
                   return f'<article class="card" id="{ident}"{m.group(1)}>{body}{m.group(3)}'
               new=pattern.sub(repl,text)
+              new=external_links_new_tab(new)
               if new!=text:
                   p.write_text(new,encoding='utf-8')
           PY
-      - name: Commit anchors
+      - name: Commit maintained HTML
         run: |
           if git diff --quiet; then exit 0; fi
           git config user.name 'MKT Colorado Site Bot'
           git config user.email 'actions@users.noreply.github.com'
           git add '*.html'
-          git commit -m 'Add unique anchors to listing cards'
+          git commit -m 'Open external links in new tabs'
           git push
