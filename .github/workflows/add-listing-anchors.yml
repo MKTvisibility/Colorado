@@ -33,33 +33,34 @@ jobs:
                       attrs=re.sub(r'\btarget\s*=\s*["\'][^"\']*["\']','target="_blank"',attrs,flags=re.I)
                   else:
                       attrs+=' target="_blank"'
-                  if 'rel=' not in attrs.lower():
-                      attrs+=' rel="noopener noreferrer"'
+                  if 'rel=' not in attrs.lower(): attrs+=' rel="noopener noreferrer"'
                   return '<a'+attrs+'>'
               return pat.sub(repl,text)
 
           for p in pathlib.Path('.').glob('*.html'):
-              if p.name=='anchor-update-trigger.html':
-                  continue
+              if p.name=='anchor-update-trigger.html': continue
               text=p.read_text(encoding='utf-8')
               new=text
+
+              # Events, About and Contact should have the same large MKT Colorado banner
+              # directly below the navigation as the home page.
+              if p.name in {'events.html','about.html','contact.html'} and 'class="index-hero-banner"' not in new:
+                  banner='<section class="index-hero-banner"><img src="Facebook Header Picture.png" alt="MKT Colorado"></section>'
+                  new=re.sub(r'(</header>)',r'\1'+banner,new,count=1,flags=re.I)
+                  css='<style id="index-hero-banner-style">.index-hero-banner img{display:block;width:100%;height:clamp(260px,37.2vw,762px);object-fit:cover}</style>'
+                  new=new.replace('</head>',css+'</head>',1)
+
               used=set(re.findall(r'\bid="([^"]+)"',new))
               pat=re.compile(r'<article class="card"(?![^>]*\bid=)([^>]*)>(.*?)(</article>)',re.S)
               def addid(m):
                   h=re.search(r'<h3[^>]*>(.*?)</h3>',m.group(2),re.S)
-                  if not h:
-                      return m.group(0)
-                  base=slug(h.group(1)) or 'listing'
-                  ident=base
-                  n=2
-                  while ident in used:
-                      ident=f'{base}-{n}'
-                      n+=1
+                  if not h:return m.group(0)
+                  base=slug(h.group(1)) or 'listing'; ident=base; n=2
+                  while ident in used: ident=f'{base}-{n}'; n+=1
                   used.add(ident)
                   return f'<article class="card" id="{ident}"{m.group(1)}>{m.group(2)}{m.group(3)}'
               new=external_links_new_tab(pat.sub(addid,new))
-              if new!=text:
-                  p.write_text(new,encoding='utf-8')
+              if new!=text:p.write_text(new,encoding='utf-8')
           PY
       - name: Commit maintained HTML
         run: |
