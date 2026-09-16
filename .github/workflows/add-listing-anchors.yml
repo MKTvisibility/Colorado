@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Maintain listing anchors, external links and Site Map navigation
+      - name: Maintain listing anchors, external links and navigation
         run: |
           python - <<'PY'
           import re, pathlib, unicodedata
@@ -37,24 +37,37 @@ jobs:
                   return '<a'+attrs+'>'
               return pat.sub(repl,text)
 
-          def add_sitemap_to_section(section):
-              if re.search(r'href=["\']site-map\.html["\']', section, re.I):
-                  return section
-              sitemap='<a href="site-map.html">Site Map</a>'
-              search=re.search(r'<a\b[^>]*href=["\']search\.html[^"\']*["\'][^>]*>',section,re.I)
-              if search:
-                  return section[:search.start()]+sitemap+section[search.start():]
-              contact=re.search(r'<a\b[^>]*href=["\']contact\.html["\'][^>]*>',section,re.I)
-              if contact:
-                  return section[:contact.start()]+sitemap+section[contact.start():]
-              return section
+          main_links = [
+              ('index.html','Home'),('about.html','About'),('businesses.html','Businesses'),
+              ('regions.html','Regions'),('towns.html','Colorado A–Z'),('spotlight.html','In The Spotlight'),
+              ('events.html','Events'),('experiences.html','Experiences'),('food-drink.html','Food & Drink'),
+              ('makers.html','Makers'),('search.html','🔍 Search'),('site-map.html','Site Map')
+          ]
+          region_links = [
+              ('eastern-plains.html','Eastern Plains'),('front-range.html','Front Range'),
+              ('mountain-towns.html','Mountain Towns'),('southern-colorado.html','Southern Colorado'),
+              ('western-slope.html','Western Slope')
+          ]
+          facebook='https://www.facebook.com/share/14o86J3YFEB/?mibextid=wwXIfr'
 
-          def add_sitemap_links(text):
-              def header_repl(m): return add_sitemap_to_section(m.group(0))
-              def footer_repl(m): return add_sitemap_to_section(m.group(0))
-              text=re.sub(r'<header\b.*?</header>',header_repl,text,flags=re.I|re.S)
-              text=re.sub(r'<footer\b.*?</footer>',footer_repl,text,flags=re.I|re.S)
-              return text
+          def links_html(items):
+              return ''.join(f'<a href="{href}">{label}</a>' for href,label in items)
+
+          def standardize_header(section):
+              nav_match=re.search(r'(<div\b[^>]*class=["\'][^"\']*nav-links[^"\']*["\'][^>]*>)(.*?)(</div>)',section,re.I|re.S)
+              if not nav_match: return section
+              body=links_html(main_links)
+              body+=f'<a href="{facebook}" target="_blank" rel="noopener noreferrer">Facebook</a>'
+              body+='<a href="contact.html" class="nav-contact">Contact</a>'
+              return section[:nav_match.start()]+nav_match.group(1)+body+nav_match.group(3)+section[nav_match.end():]
+
+          def standardize_footer(section):
+              # Replace the first footer navigation/link collection with all requested main + regional pages.
+              block=re.search(r'(<div\b[^>]*class=["\'][^"\']*footer-links[^"\']*["\'][^>]*>)(.*?)(</div>)',section,re.I|re.S)
+              if not block: return section
+              body=links_html(main_links + [('contact.html','Contact')] + region_links)
+              body+=f'<a href="{facebook}" target="_blank" rel="noopener noreferrer">Facebook</a>'
+              return section[:block.start()]+block.group(1)+body+block.group(3)+section[block.end():]
 
           for p in pathlib.Path('.').glob('*.html'):
               if p.name=='anchor-update-trigger.html': continue
@@ -71,7 +84,8 @@ jobs:
                   return f'<article class="card" id="{ident}"{m.group(1)}>{m.group(2)}{m.group(3)}'
               new=pat.sub(addid,new)
               new=external_links_new_tab(new)
-              new=add_sitemap_links(new)
+              new=re.sub(r'<header\b.*?</header>',lambda m:standardize_header(m.group(0)),new,flags=re.I|re.S)
+              new=re.sub(r'<footer\b.*?</footer>',lambda m:standardize_footer(m.group(0)),new,flags=re.I|re.S)
               if new!=text:p.write_text(new,encoding='utf-8')
           PY
       - name: Commit maintained HTML
@@ -80,5 +94,5 @@ jobs:
           git config user.name 'MKT Colorado Site Bot'
           git config user.email 'actions@users.noreply.github.com'
           git add '*.html'
-          git commit -m 'Maintain listing anchors, links and Site Map navigation'
+          git commit -m 'Standardize sitewide header and footer navigation'
           git push
