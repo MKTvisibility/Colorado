@@ -1,4 +1,4 @@
-name: Maintain MKT Colorado listing anchors and external links
+name: Maintain MKT Colorado listing anchors, links and navigation
 on:
   push:
     branches: [main]
@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Maintain listing anchors and external links only
+      - name: Maintain listing anchors, external links and Site Map navigation
         run: |
           python - <<'PY'
           import re, pathlib, unicodedata
@@ -37,11 +37,29 @@ jobs:
                   return '<a'+attrs+'>'
               return pat.sub(repl,text)
 
+          def add_sitemap_to_section(section):
+              if re.search(r'href=["\']site-map\.html["\']', section, re.I):
+                  return section
+              sitemap='<a href="site-map.html">Site Map</a>'
+              search=re.search(r'<a\b[^>]*href=["\']search\.html[^"\']*["\'][^>]*>',section,re.I)
+              if search:
+                  return section[:search.start()]+sitemap+section[search.start():]
+              contact=re.search(r'<a\b[^>]*href=["\']contact\.html["\'][^>]*>',section,re.I)
+              if contact:
+                  return section[:contact.start()]+sitemap+section[contact.start():]
+              return section
+
+          def add_sitemap_links(text):
+              def header_repl(m): return add_sitemap_to_section(m.group(0))
+              def footer_repl(m): return add_sitemap_to_section(m.group(0))
+              text=re.sub(r'<header\b.*?</header>',header_repl,text,flags=re.I|re.S)
+              text=re.sub(r'<footer\b.*?</footer>',footer_repl,text,flags=re.I|re.S)
+              return text
+
           for p in pathlib.Path('.').glob('*.html'):
               if p.name=='anchor-update-trigger.html': continue
               text=p.read_text(encoding='utf-8')
               new=text
-
               used=set(re.findall(r'\bid="([^"]+)"',new))
               pat=re.compile(r'<article class="card"(?![^>]*\bid=)([^>]*)>(.*?)(</article>)',re.S)
               def addid(m):
@@ -51,7 +69,9 @@ jobs:
                   while ident in used: ident=f'{base}-{n}'; n+=1
                   used.add(ident)
                   return f'<article class="card" id="{ident}"{m.group(1)}>{m.group(2)}{m.group(3)}'
-              new=external_links_new_tab(pat.sub(addid,new))
+              new=pat.sub(addid,new)
+              new=external_links_new_tab(new)
+              new=add_sitemap_links(new)
               if new!=text:p.write_text(new,encoding='utf-8')
           PY
       - name: Commit maintained HTML
@@ -60,5 +80,5 @@ jobs:
           git config user.name 'MKT Colorado Site Bot'
           git config user.email 'actions@users.noreply.github.com'
           git add '*.html'
-          git commit -m 'Maintain listing anchors and external links'
+          git commit -m 'Maintain listing anchors, links and Site Map navigation'
           git push
