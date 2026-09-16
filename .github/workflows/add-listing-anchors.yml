@@ -41,10 +41,14 @@ jobs:
           for p in pathlib.Path('.').glob('*.html'):
               if p.name in ('index.html','anchor-update-trigger.html'): continue
               text=p.read_text(encoding='utf-8')
-              new=re.sub(r'<header\b.*?</header>',header,text,count=1,flags=re.S|re.I)
-              if new==text and '<body' in text: new=re.sub(r'(<body[^>]*>)',r'\1'+header,new,count=1,flags=re.I)
-              if re.search(r'<footer\b.*?</footer>',new,re.S|re.I): new=re.sub(r'<footer\b.*?</footer>',footer,new,count=1,flags=re.S|re.I)
-              else: new=re.sub(r'</body>',footer+'</body>',new,count=1,flags=re.I)
+              new=text
+              # Remove every existing site header, then insert exactly one master header after <body>.
+              new=re.sub(r'<header\b[^>]*class=["\'][^"\']*site-header[^"\']*["\'][^>]*>.*?</header>\s*','',new,flags=re.S|re.I)
+              if '<body' in new:
+                  new=re.sub(r'(<body[^>]*>)',r'\1'+header,new,count=1,flags=re.I)
+              # Remove every existing footer, then insert exactly one master footer before </body>.
+              new=re.sub(r'<footer\b[^>]*>.*?</footer>\s*','',new,flags=re.S|re.I)
+              new=re.sub(r'</body>',footer+'</body>',new,count=1,flags=re.I)
               new=re.sub(r'<style id="mkt-shell-style">.*?</style>','',new,flags=re.S)
               new=new.replace('</head>',shell_css+'</head>',1)
               used=set(re.findall(r'\bid="([^"]+)"',new))
