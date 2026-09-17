@@ -1,98 +1,48 @@
-name: Maintain MKT Colorado listing anchors, links and navigation
+name: Preview Home Footer
+
 on:
   push:
-    branches: [main]
+    branches:
+      - main
     paths:
-      - '**.html'
+      - anchor-update-trigger.html
+
 permissions:
   contents: write
+
 jobs:
-  maintain:
+  update-home-footer:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Maintain listing anchors, external links and navigation
+      - name: Update index footer preview
+        shell: bash
         run: |
-          python - <<'PY'
-          import re, pathlib, unicodedata
-          from urllib.parse import urlparse
+          python3 <<'PY'
+          from pathlib import Path
+          import re
 
-          def slug(s):
-              s=unicodedata.normalize('NFKD',s).encode('ascii','ignore').decode().lower()
-              s=re.sub(r'<[^>]+>',' ',s)
-              return re.sub(r'[^a-z0-9]+','-',s).strip('-')
+          p = Path('index.html')
+          text = p.read_text(encoding='utf-8')
 
-          def external_links_new_tab(text):
-              pat=re.compile(r'<a\b([^>]*?\bhref=["\'](https?://[^"\']+)["\'][^>]*)>',re.I)
-              def repl(m):
-                  attrs,url=m.group(1),m.group(2)
-                  host=(urlparse(url).hostname or '').lower()
-                  if host=='mktvisibility.github.io' and urlparse(url).path.startswith('/Colorado'): return m.group(0)
-                  if re.search(r'\btarget\s*=\s*["\'][^"\']*["\']',attrs,re.I): attrs=re.sub(r'\btarget\s*=\s*["\'][^"\']*["\']','target="_blank"',attrs,flags=re.I)
-                  else: attrs+=' target="_blank"'
-                  if 'rel=' not in attrs.lower(): attrs+=' rel="noopener noreferrer"'
-                  return '<a'+attrs+'>'
-              return pat.sub(repl,text)
+          css = '''.home-footer-test{background:var(--navy);color:#fff;padding:46px 25px 22px;border-top:6px solid var(--orange)}.home-footer-inner{max-width:1120px;margin:auto}.home-footer-top{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(300px,.85fr);gap:100px;max-width:980px;margin:0 auto 34px}.home-footer-brand{max-width:500px}.home-footer-brand h2{color:#fff;margin:0}.home-footer-brand p{max-width:470px}.home-mkt-visibility{margin-top:24px}.home-mkt-visibility a,.home-footer-connect a,.home-footer-nav a,.home-footer-regions a,.home-mini-links a{color:#fff;text-decoration:none}.home-mkt-visibility>p{font-size:12px;line-height:1.55;margin:12px 0 8px}.home-tagline{font-size:9px;font-weight:bold;letter-spacing:1.6px;margin-top:3px}.home-mini-links{display:flex;gap:16px;flex-wrap:wrap;font-size:12px;font-weight:bold}.home-footer-connect{padding-top:4px}.home-footer-connect>strong{font-size:16px}.home-footer-connect p{max-width:330px;margin:16px 0}.home-footer-connect a{display:block;margin:9px 0}.home-footer-nav{border-top:1px solid rgba(255,255,255,.28);padding:24px 0 12px;display:flex;justify-content:center;gap:10px 22px;flex-wrap:wrap;text-align:center}.home-footer-nav a{font-size:13px;font-weight:bold}.home-footer-regions{display:flex;justify-content:center;align-items:center;gap:9px 18px;flex-wrap:wrap;padding:8px 0 18px;text-align:center;font-size:12px}.home-footer-regions strong{color:var(--gold)}.home-footer-regions a{font-size:12px}.home-footer-test .footer-bottom{border-top:1px solid rgba(255,255,255,.16);padding-top:18px;margin-top:4px}.home-footer-test .mkt-partner-logo{width:65px;height:65px;object-fit:cover}@media(max-width:760px){.home-footer-top{grid-template-columns:1fr;gap:30px;max-width:560px}.home-footer-nav{gap:9px 16px}.home-footer-regions{align-items:flex-start}}'''
 
-          main_links=[('index.html','Home'),('about.html','About'),('businesses.html','Businesses'),('regions.html','Regions'),('towns.html','Colorado A–Z'),('spotlight.html','In The Spotlight'),('events.html','Events'),('experiences.html','Experiences'),('food-drink.html','Food & Drink'),('makers.html','Makers'),('search.html','🔍 Search'),('site-map.html','Site Map')]
-          region_links=[('eastern-plains.html','Eastern Plains'),('front-range.html','Front Range'),('mountain-towns.html','Mountain Towns'),('southern-colorado.html','Southern Colorado'),('western-slope.html','Western Slope')]
-          facebook='https://www.facebook.com/share/14o86J3YFEB/?mibextid=wwXIfr'
-          def links_html(items): return ''.join(f'<a href="{h}">{l}</a>' for h,l in items)
+          if '.home-footer-test{' not in text:
+              text = text.replace('</style>', css + '</style>', 1)
 
-          def standardize_header(section):
-              m=re.search(r'(<div\b[^>]*class=["\'][^"\']*nav-links[^"\']*["\'][^>]*>)(.*?)(</div>)',section,re.I|re.S)
-              if not m:return section
-              body=links_html(main_links)+f'<a href="{facebook}" target="_blank" rel="noopener noreferrer">Facebook</a><a href="contact.html" class="nav-contact">Contact</a>'
-              return section[:m.start()]+m.group(1)+body+m.group(3)+section[m.end():]
+          footer = '''<footer class="home-footer-test"><div class="home-footer-inner"><div class="home-footer-top"><div class="home-footer-brand"><div class="mkt-partner-row"><img class="brand-mark" src="Facebook Profile Picture.png" alt="MKT Colorado"><div><h2>MKT Colorado</h2><small>DISCOVER • CONNECT • SUPPORT COLORADO</small></div></div><p>Celebrating the businesses, people, places and stories that make Colorado worth exploring.</p><div class="home-mkt-visibility"><div class="mkt-partner-row"><img class="mkt-partner-logo" src="MKT Visibility Logo main profile pic.png" alt="MKT Visibility"><div><a href="https://mktvisibility.com" target="_blank" rel="noopener noreferrer"><strong>MKT Visibility</strong></a><div class="home-tagline">WE KEEP YOUR BUSINESS VISIBLE.</div></div></div><p>Helping small businesses stay visible through social media, digital marketing, websites, photography, video and Google Business Profile support.</p><div class="home-mini-links"><a href="https://mktvisibility.com" target="_blank" rel="noopener noreferrer">Website →</a><a href="https://www.facebook.com/profile.php?id=61594428531114" target="_blank" rel="noopener noreferrer">Facebook →</a></div></div></div><div class="home-footer-connect"><strong>Connect With MKT Colorado</strong><p>Know a Colorado business, place or story we should feature?</p><a href="mailto:MKTvisibility@gmail.com">MKTvisibility@gmail.com</a><a href="https://www.facebook.com/share/14o86J3YFEB/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">Follow MKT Colorado on Facebook</a><a href="contact.html">Contact MKT Colorado</a></div></div><div class="home-footer-nav"><a href="index.html">Home</a><a href="about.html">About</a><a href="businesses.html">Businesses</a><a href="regions.html">Regions</a><a href="towns.html">Colorado A–Z</a><a href="spotlight.html">In The Spotlight</a><a href="events.html">Events</a><a href="experiences.html">Experiences</a><a href="food-drink.html">Food & Drink</a><a href="makers.html">Makers</a><a href="search.html">🔍 Search</a><a href="site-map.html">Site Map</a><a href="contact.html">Contact</a></div><div class="home-footer-regions"><strong>Explore Colorado Regions:</strong><a href="eastern-plains.html">Eastern Plains</a><a href="front-range.html">Front Range</a><a href="mountain-towns.html">Mountain Towns</a><a href="southern-colorado.html">Southern Colorado</a><a href="western-slope.html">Western Slope</a></div><div class="footer-bottom">© 2026 MKT Colorado • A statewide project presented by MKT Visibility.</div></div></footer>'''
 
-          def standardize_footer(section):
-              m=re.search(r'(<div\b[^>]*class=["\'][^"\']*footer-links[^"\']*["\'][^>]*>)(.*?)(</div>)',section,re.I|re.S)
-              if not m:return section
-              body=links_html(main_links+[('contact.html','Contact')]+region_links)+f'<a href="{facebook}" target="_blank" rel="noopener noreferrer">Facebook</a>'
-              return section[:m.start()]+m.group(1)+body+m.group(3)+section[m.end():]
-
-          def home_footer():
-              main=links_html(main_links+[('contact.html','Contact')])
-              regions=links_html(region_links)
-              return f'''<footer class="home-footer-test">
-<div class="home-footer-inner">
-  <div class="home-footer-top">
-    <div class="home-footer-brand">
-      <div class="mkt-partner-row"><img class="brand-mark" src="Facebook Profile Picture.png" alt="MKT Colorado"><div><h2>MKT Colorado</h2><small>DISCOVER • CONNECT • SUPPORT COLORADO</small></div></div>
-      <p>Celebrating the businesses, people, places and stories that make Colorado worth exploring.</p>
-      <div class="home-mkt-visibility"><div class="mkt-partner-row"><img class="mkt-partner-logo" src="MKT Visibility Logo main profile pic.png" alt="MKT Visibility"><div><a href="https://mktvisibility.com" target="_blank" rel="noopener noreferrer"><strong>MKT Visibility</strong></a><div class="home-tagline">WE KEEP YOUR BUSINESS VISIBLE.</div></div></div><p>Helping small businesses stay visible through social media, digital marketing, websites, photography, video and Google Business Profile support.</p><div class="home-mini-links"><a href="https://mktvisibility.com" target="_blank" rel="noopener noreferrer">Website →</a><a href="https://www.facebook.com/profile.php?id=61594428531114" target="_blank" rel="noopener noreferrer">Facebook →</a></div></div>
-    </div>
-    <div class="home-footer-connect"><strong>Connect With MKT Colorado</strong><p>Know a Colorado business, place or story we should feature?</p><a href="mailto:MKTvisibility@gmail.com">MKTvisibility@gmail.com</a><a href="{facebook}" target="_blank" rel="noopener noreferrer">Follow MKT Colorado on Facebook</a><a href="contact.html">Contact MKT Colorado</a></div>
-  </div>
-  <div class="home-footer-nav">{main}</div>
-  <div class="home-footer-regions"><strong>Explore Colorado Regions:</strong>{regions}</div>
-  <div class="footer-bottom">© 2026 MKT Colorado • A statewide project presented by MKT Visibility.</div>
-</div></footer>'''
-
-          test_css='''.home-footer-test{background:var(--navy);color:#fff;padding:46px 25px 22px;border-top:6px solid var(--orange)}.home-footer-inner{max-width:1120px;margin:auto}.home-footer-top{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(300px,.85fr);gap:100px;max-width:980px;margin:0 auto 34px}.home-footer-brand{max-width:500px}.home-footer-brand h2{color:#fff;margin:0}.home-footer-brand p{max-width:470px}.home-mkt-visibility{margin-top:24px}.home-mkt-visibility a,.home-footer-connect a,.home-footer-nav a,.home-footer-regions a,.home-mini-links a{color:#fff;text-decoration:none}.home-mkt-visibility>p{font-size:12px;line-height:1.55;margin:12px 0 8px}.home-tagline{font-size:9px;font-weight:bold;letter-spacing:1.6px;margin-top:3px}.home-mini-links{display:flex;gap:16px;flex-wrap:wrap;font-size:12px;font-weight:bold}.home-footer-connect{padding-top:4px}.home-footer-connect>strong{font-size:16px}.home-footer-connect p{max-width:330px;margin:16px 0}.home-footer-connect a{display:block;margin:9px 0}.home-footer-nav{border-top:1px solid rgba(255,255,255,.28);padding:24px 0 12px;display:flex;justify-content:center;gap:10px 22px;flex-wrap:wrap;text-align:center}.home-footer-nav a{font-size:13px;font-weight:bold}.home-footer-regions{display:flex;justify-content:center;align-items:center;gap:9px 18px;flex-wrap:wrap;padding:8px 0 18px;text-align:center;font-size:12px}.home-footer-regions strong{color:var(--gold)}.home-footer-regions a{font-size:12px}.home-footer-test .footer-bottom{border-top:1px solid rgba(255,255,255,.16);padding-top:18px;margin-top:4px}.home-footer-test .mkt-partner-logo{width:65px;height:65px;object-fit:cover}@media(max-width:760px){.home-footer-top{grid-template-columns:1fr;gap:30px;max-width:560px}.home-footer-nav{gap:9px 16px}.home-footer-regions{align-items:flex-start}}'''
-
-          for p in pathlib.Path('.').glob('*.html'):
-              if p.name=='anchor-update-trigger.html':continue
-              text=p.read_text(encoding='utf-8'); new=text
-              used=set(re.findall(r'\bid="([^"]+)"',new)); pat=re.compile(r'<article class="card"(?![^>]*\bid=)([^>]*)>(.*?)(</article>)',re.S)
-              def addid(m):
-                  h=re.search(r'<h3[^>]*>(.*?)</h3>',m.group(2),re.S)
-                  if not h:return m.group(0)
-                  base=slug(h.group(1)) or 'listing'; ident=base; n=2
-                  while ident in used:ident=f'{base}-{n}';n+=1
-                  used.add(ident);return f'<article class="card" id="{ident}"{m.group(1)}>{m.group(2)}{m.group(3)}'
-              new=pat.sub(addid,new);new=external_links_new_tab(new);new=re.sub(r'<header\b.*?</header>',lambda m:standardize_header(m.group(0)),new,flags=re.I|re.S)
-              if p.name=='index.html':
-                  if '.home-footer-test{' not in new:new=new.replace('</style>',test_css+'</style>',1)
-                  new=re.sub(r'<footer\b.*?</footer>',home_footer(),new,flags=re.I|re.S)
-              else:new=re.sub(r'<footer\b.*?</footer>',lambda m:standardize_footer(m.group(0)),new,flags=re.I|re.S)
-              if new!=text:p.write_text(new,encoding='utf-8')
+          text = re.sub(r'<footer\b.*?</footer>', footer, text, count=1, flags=re.I | re.S)
+          p.write_text(text, encoding='utf-8')
           PY
-      - name: Commit maintained HTML
+      - name: Commit index footer preview
+        shell: bash
         run: |
-          if git diff --quiet; then exit 0; fi
-          git config user.name 'MKT Colorado Site Bot'
-          git config user.email 'actions@users.noreply.github.com'
-          git add '*.html'
-          git commit -m 'Test redesigned footer on home page only'
+          if git diff --quiet -- index.html; then
+            exit 0
+          fi
+          git config user.name "MKT Colorado Site Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add index.html
+          git commit -m "Redesign index footer preview"
           git push
