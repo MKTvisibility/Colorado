@@ -1,0 +1,11 @@
+{
+  "lastAdded": [
+    "Dacono"
+  ],
+  "linkedGuides": 95,
+  "remainingDirectoryEntries": 206,
+  "nextMissing": "DeBeque",
+  "municipalityAudit": "Pending; not yet complete",
+  "verification": "Static checks passed; consult deployment for commit before treating as live",
+  "date": "2026-10-24"
+}
