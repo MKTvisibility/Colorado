@@ -1,5 +1,7 @@
 /* MKT Colorado statewide discovery search */
 window.MKT_SEARCH_INDEX=[
+{name:'Two Scents Worth Oils and Incense',town:'Castle Rock',type:'business',category:'Shopping, Makers & Creators',keywords:'incense essential fragrance oils bottle burners gifts',url:'two-scents-worth-oils-and-incense.html'},
+
 {name:'Barbed Wire Books',town:'Longmont',type:'business',category:'Shopping',keywords:'bookstore books reading',url:'longmont.html#barbed-wire-books'},
 {name:'TinkerMill',town:'Longmont',type:'place',category:'Classes & Experiences',keywords:'makerspace classes create',url:'longmont.html#tinkermill'},
 {name:'Sunflower Farm',town:'Longmont',type:'place',category:'Farms & Animals, Family & Kids',keywords:'farm animals kids family',url:'longmont.html#sunflower-farm'},
