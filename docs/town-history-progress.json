@@ -1,11 +1,11 @@
 {
   "lastAdded": [
-    "Del Norte"
+    "Delta"
   ],
-  "linkedGuides": 98,
-  "remainingDirectoryEntries": 203,
-  "nextMissing": "Delta",
+  "linkedGuides": 99,
+  "remainingDirectoryEntries": 202,
+  "nextMissing": "Derive from towns.html; Denver already linked",
   "municipalityAudit": "Pending; not yet complete",
-  "verification": "Del Norte committed; live verification pending. Deckers previously verified live.",
+  "verification": "Delta deployment pending; Del Norte verification in progress",
   "date": "2026-10-25"
 }
