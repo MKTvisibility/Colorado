@@ -1,11 +1,11 @@
 {
   "lastAdded": [
-    "Dacono"
+    "De Beque"
   ],
-  "linkedGuides": 95,
-  "remainingDirectoryEntries": 206,
-  "nextMissing": "DeBeque",
+  "linkedGuides": 96,
+  "remainingDirectoryEntries": 205,
+  "nextMissing": "Deckers",
   "municipalityAudit": "Pending; not yet complete",
-  "verification": "Static checks passed; consult deployment for commit before treating as live",
+  "verification": "De Beque live HTTP 200; expected history content verified October 24, 2026. Deployment workflow status and visual inspection not yet checked.",
   "date": "2026-10-24"
 }
