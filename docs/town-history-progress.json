@@ -1,11 +1,11 @@
 {
   "lastAdded": [
-    "Dillon"
+    "Dinosaur"
   ],
-  "linkedGuides": 100,
-  "remainingDirectoryEntries": 201,
-  "nextMissing": "Dinosaur",
+  "linkedGuides": 101,
+  "remainingDirectoryEntries": 200,
+  "nextMissing": "Divide",
   "municipalityAudit": "Pending; not yet complete",
-  "verification": "Dillon deployment pending; Delta live HTTP 200 previously verified",
+  "verification": "Dinosaur deployment pending; Dillon previously verified live",
   "date": "2026-10-25"
 }
