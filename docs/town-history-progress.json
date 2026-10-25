@@ -1,11 +1,11 @@
 {
   "lastAdded": [
-    "Delta"
+    "Dillon"
   ],
-  "linkedGuides": 99,
-  "remainingDirectoryEntries": 202,
-  "nextMissing": "Derive from towns.html; Denver already linked",
+  "linkedGuides": 100,
+  "remainingDirectoryEntries": 201,
+  "nextMissing": "Dinosaur",
   "municipalityAudit": "Pending; not yet complete",
-  "verification": "Delta deployment pending; Del Norte verification in progress",
+  "verification": "Dillon deployment pending; Delta live HTTP 200 previously verified",
   "date": "2026-10-25"
 }
