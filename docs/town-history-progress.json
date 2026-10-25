@@ -1,11 +1,11 @@
 {
   "lastAdded": [
-    "De Beque"
+    "Deckers"
   ],
-  "linkedGuides": 96,
-  "remainingDirectoryEntries": 205,
-  "nextMissing": "Deckers",
+  "linkedGuides": 97,
+  "remainingDirectoryEntries": 204,
+  "nextMissing": "Deer Trail",
   "municipalityAudit": "Pending; not yet complete",
-  "verification": "De Beque live HTTP 200; expected history content verified October 24, 2026. Deployment workflow status and visual inspection not yet checked.",
-  "date": "2026-10-24"
+  "verification": "Deckers committed; live deployment verification pending",
+  "date": "2026-10-25"
 }
