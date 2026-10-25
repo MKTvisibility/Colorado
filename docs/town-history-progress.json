@@ -1,11 +1,11 @@
 {
   "lastAdded": [
-    "Deckers"
+    "Del Norte"
   ],
-  "linkedGuides": 97,
-  "remainingDirectoryEntries": 204,
-  "nextMissing": "Deer Trail",
+  "linkedGuides": 98,
+  "remainingDirectoryEntries": 203,
+  "nextMissing": "Delta",
   "municipalityAudit": "Pending; not yet complete",
-  "verification": "Deckers committed; live deployment verification pending",
+  "verification": "Del Norte committed; live verification pending. Deckers previously verified live.",
   "date": "2026-10-25"
 }
