@@ -1,9 +1,9 @@
 {
-  "lastAdded": "El Jebel",
-  "linkedGuides": 113,
-  "remainingDirectoryEntries": 188,
-  "nextMissing": "Eldorado Springs",
+  "lastAdded": "Eldorado Springs",
+  "linkedGuides": 114,
+  "remainingDirectoryEntries": 187,
+  "nextMissing": "Elizabeth",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "El Jebel static checks passed; deployment pending.",
+  "verification": "Eldorado Springs static checks passed; deployment pending. El Jebel live content verified previously.",
   "date": "2026-10-25"
 }
