@@ -1,9 +1,9 @@
 {
-  "lastAdded": "Fort Garland",
-  "linkedGuides": 128,
-  "remainingDirectoryEntries": 173,
-  "nextMissing": "Fort Lupton",
+  "lastAdded": "Fort Lupton",
+  "linkedGuides": 129,
+  "remainingDirectoryEntries": 172,
+  "nextMissing": "Fort Morgan",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Fort Garland static checks passed; deployment pending. Fort Collins live content and successful deployment verified previously.",
+  "verification": "Fort Lupton static checks passed; deployment pending. Fort Garland live content and successful deployment verified previously.",
   "date": "2026-10-26"
 }
