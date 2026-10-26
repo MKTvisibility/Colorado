@@ -1,9 +1,9 @@
 {
-  "lastAdded": "Flagler",
-  "linkedGuides": 124,
-  "remainingDirectoryEntries": 177,
-  "nextMissing": "Florence",
+  "lastAdded": "Florence",
+  "linkedGuides": 125,
+  "remainingDirectoryEntries": 176,
+  "nextMissing": "Fort Carson",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Flagler static checks passed; deployment pending. Firestone live content verified on GitHub Pages previously.",
+  "verification": "Florence static checks passed; deployment pending. Flagler live content verified on GitHub Pages previously.",
   "date": "2026-10-26"
 }
