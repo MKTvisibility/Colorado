@@ -3,7 +3,7 @@
   "linkedGuides": 112,
   "remainingDirectoryEntries": 189,
   "nextMissing": "El Jebel",
-  "municipalityAudit": "pending",
-  "verification": "Edwards static checks passed; deployment pending. Source directory reconciled from latest main.",
+  "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
+  "verification": "Edwards verified HTTP 200 with expected history on both mktcolorado.com and GitHub Pages; directory link live; GitHub Pages workflow completed successfully.",
   "date": "2026-10-25"
 }
