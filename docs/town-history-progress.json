@@ -1,9 +1,9 @@
 {
-  "lastAdded": "Foxfield",
-  "linkedGuides": 133,
-  "remainingDirectoryEntries": 168,
-  "nextMissing": "Franktown",
+  "lastAdded": "Franktown",
+  "linkedGuides": 134,
+  "remainingDirectoryEntries": 167,
+  "nextMissing": "Fraser",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Foxfield sourced and prepared; deployment pending.",
+  "verification": "Franktown sourced and prepared; deployment pending.",
   "date": "2026-10-26"
 }
