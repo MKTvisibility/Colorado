@@ -1,9 +1,9 @@
 {
-  "lastAdded": "Eldorado Springs",
-  "linkedGuides": 114,
-  "remainingDirectoryEntries": 187,
-  "nextMissing": "Elizabeth",
+  "lastAdded": "Elizabeth",
+  "linkedGuides": 115,
+  "remainingDirectoryEntries": 186,
+  "nextMissing": "Empire",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Eldorado Springs static checks passed; deployment pending. El Jebel live content verified previously.",
+  "verification": "Elizabeth static checks passed; deployment pending. Eldorado Springs live content and successful deployment verified previously.",
   "date": "2026-10-25"
 }
