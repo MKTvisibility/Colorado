@@ -1,9 +1,9 @@
 {
-  "lastAdded": "Fairplay",
-  "linkedGuides": 121,
-  "remainingDirectoryEntries": 180,
-  "nextMissing": "Falcon",
+  "lastAdded": "Falcon",
+  "linkedGuides": 122,
+  "remainingDirectoryEntries": 179,
+  "nextMissing": "Firestone",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Fairplay static checks passed; deployment pending. Evergreen live content and successful deployment verified previously.",
+  "verification": "Falcon static checks passed; deployment pending. Fairplay live content and successful deployment verified previously.",
   "date": "2026-10-26"
 }
