@@ -1,9 +1,9 @@
 {
-  "lastAdded": "Empire",
-  "linkedGuides": 116,
-  "remainingDirectoryEntries": 185,
-  "nextMissing": "Englewood",
+  "lastAdded": "Englewood",
+  "linkedGuides": 117,
+  "remainingDirectoryEntries": 184,
+  "nextMissing": "Erie",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Empire static checks passed; deployment pending. Elizabeth live content verified previously.",
+  "verification": "Englewood static checks passed; deployment pending. Empire live content and successful deployment verified previously.",
   "date": "2026-10-25"
 }
