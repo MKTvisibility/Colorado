@@ -1,9 +1,9 @@
 {
-  "lastAdded": "Fowler",
-  "linkedGuides": 132,
-  "remainingDirectoryEntries": 169,
-  "nextMissing": "Foxfield",
+  "lastAdded": "Foxfield",
+  "linkedGuides": 133,
+  "remainingDirectoryEntries": 168,
+  "nextMissing": "Franktown",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Fountain and Fowler static internal-target checks passed. Expected content verified HTTP 200 on custom domain and GitHub Pages on 2026-10-26. Actions completion not yet confirmed.",
+  "verification": "Foxfield sourced and prepared; deployment pending.",
   "date": "2026-10-26"
 }
