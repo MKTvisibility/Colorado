@@ -1,9 +1,9 @@
 {
-  "lastAdded": "Fort Morgan",
-  "linkedGuides": 130,
-  "remainingDirectoryEntries": 171,
-  "nextMissing": "Fountain",
+  "lastAdded": "Fowler",
+  "linkedGuides": 132,
+  "remainingDirectoryEntries": 169,
+  "nextMissing": "Foxfield",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Fort Morgan static checks passed; deployment pending. Fort Lupton live content and successful deployment verified previously.",
+  "verification": "Fountain and Fowler: source research and static internal-target checks passed; deployment verification pending.",
   "date": "2026-10-26"
 }
