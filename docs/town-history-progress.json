@@ -1,9 +1,9 @@
 {
-  "lastAdded": "Firestone",
-  "linkedGuides": 123,
-  "remainingDirectoryEntries": 178,
-  "nextMissing": "Flagler",
+  "lastAdded": "Flagler",
+  "linkedGuides": 124,
+  "remainingDirectoryEntries": 177,
+  "nextMissing": "Florence",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Firestone static checks passed; deployment pending. Falcon live content and successful deployment verified previously.",
+  "verification": "Flagler static checks passed; deployment pending. Firestone live content verified on GitHub Pages previously.",
   "date": "2026-10-26"
 }
