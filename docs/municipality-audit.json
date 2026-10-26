@@ -26,7 +26,6 @@
     "Garden City",
     "Genoa",
     "Gilcrest",
-    "Hartman",
     "Haxtun",
     "Hillrose",
     "Hooper",
@@ -352,6 +351,19 @@
   "notes": [
     "273 features may include inactive or dissolved municipalities; this is not a verified current municipality total.",
     "Creede and City of Creede refer to the same destination.",
-    "Do not alter the directory until other aliases and current incorporation statuses are reconciled."
+    "Do not alter the directory until other aliases and current incorporation statuses are reconciled.",
+    "CDOT's 273-feature snapshot includes Hartman and is not a verified current count."
+  ],
+  "statusReconciliation": {
+    "Hartman": {
+      "classification": "Former municipality; retain as community-guide candidate, exclude from active incorporated count.",
+      "determinationDate": "2026-07-28",
+      "source": "https://www.sos.state.co.us/pubs/newsRoom/pressReleases/2026/PR20260729Hartman.html",
+      "verified": "2026-10-26",
+      "note": "Check for later judicial changes before writing guide."
+    }
+  },
+  "formerMunicipalityGuideCandidates": [
+    "Hartman"
   ]
 }
