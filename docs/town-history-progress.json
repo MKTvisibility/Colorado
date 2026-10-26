@@ -1,9 +1,9 @@
 {
-  "lastAdded": "Evans",
-  "linkedGuides": 119,
-  "remainingDirectoryEntries": 182,
-  "nextMissing": "Evergreen",
+  "lastAdded": "Evergreen",
+  "linkedGuides": 120,
+  "remainingDirectoryEntries": 181,
+  "nextMissing": "Fairplay",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Evans static checks passed; deployment pending. Erie live content verified previously.",
+  "verification": "Evergreen static checks passed; deployment pending. Evans live content and successful deployment verified previously.",
   "date": "2026-10-26"
 }
