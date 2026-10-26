@@ -1,11 +1,9 @@
 {
-  "lastAdded": [
-    "Dolores"
-  ],
-  "linkedGuides": 103,
-  "remainingDirectoryEntries": 198,
-  "nextMissing": "Dove Creek",
-  "municipalityAudit": "Pending; not yet complete",
-  "verification": "Dolores deployment pending; Divide previously verified live",
+  "lastAdded": "Edwards",
+  "linkedGuides": 112,
+  "remainingDirectoryEntries": 189,
+  "nextMissing": "El Jebel",
+  "municipalityAudit": "pending",
+  "verification": "Edwards static checks passed; deployment pending. Source directory reconciled from latest main.",
   "date": "2026-10-25"
 }
