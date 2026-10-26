@@ -1,9 +1,9 @@
 {
-  "lastAdded": "Elizabeth",
-  "linkedGuides": 115,
-  "remainingDirectoryEntries": 186,
-  "nextMissing": "Empire",
+  "lastAdded": "Empire",
+  "linkedGuides": 116,
+  "remainingDirectoryEntries": 185,
+  "nextMissing": "Englewood",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Elizabeth static checks passed; deployment pending. Eldorado Springs live content and successful deployment verified previously.",
+  "verification": "Empire static checks passed; deployment pending. Elizabeth live content verified previously.",
   "date": "2026-10-25"
 }
