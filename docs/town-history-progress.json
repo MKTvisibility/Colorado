@@ -1,9 +1,9 @@
 {
-  "lastAdded": "Edwards",
-  "linkedGuides": 112,
-  "remainingDirectoryEntries": 189,
-  "nextMissing": "El Jebel",
+  "lastAdded": "El Jebel",
+  "linkedGuides": 113,
+  "remainingDirectoryEntries": 188,
+  "nextMissing": "Eldorado Springs",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Edwards verified HTTP 200 with expected history on both mktcolorado.com and GitHub Pages; directory link live; GitHub Pages workflow completed successfully.",
+  "verification": "El Jebel static checks passed; deployment pending.",
   "date": "2026-10-25"
 }
