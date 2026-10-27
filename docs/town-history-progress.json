@@ -1,9 +1,9 @@
 {
-  "lastAdded": "Gould",
-  "linkedGuides": 142,
-  "remainingDirectoryEntries": 159,
-  "nextMissing": "Granada",
+  "lastAdded": "Granada",
+  "linkedGuides": 143,
+  "remainingDirectoryEntries": 158,
+  "nextMissing": "Granby",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Gould sourced; deployment pending.",
+  "verification": "Granada sourced; deployment pending.",
   "date": "2026-10-27"
 }
