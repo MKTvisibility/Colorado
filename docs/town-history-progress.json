@@ -1,9 +1,9 @@
 {
-  "lastAdded": "Franktown",
-  "linkedGuides": 134,
-  "remainingDirectoryEntries": 167,
-  "nextMissing": "Fraser",
+  "lastAdded": "Fraser",
+  "linkedGuides": 135,
+  "remainingDirectoryEntries": 166,
+  "nextMissing": "Frisco",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Franktown sourced and prepared; deployment pending.",
+  "verification": "Fraser sourced; deployment verification pending.",
   "date": "2026-10-26"
 }
