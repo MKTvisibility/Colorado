@@ -1,9 +1,9 @@
 {
-  "lastAdded": "Fruita",
-  "linkedGuides": 137,
-  "remainingDirectoryEntries": 164,
-  "nextMissing": "Gateway",
+  "lastAdded": "Gateway",
+  "linkedGuides": 138,
+  "remainingDirectoryEntries": 163,
+  "nextMissing": "Georgetown",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Fruita sourced; deployment pending.",
+  "verification": "Gateway sourced; deployment pending.",
   "date": "2026-10-26"
 }
