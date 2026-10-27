@@ -1,9 +1,9 @@
 {
-  "lastAdded": "Haswell",
-  "linkedGuides": 154,
-  "remainingDirectoryEntries": 147,
-  "nextMissing": "Hayden",
+  "lastAdded": "Hayden",
+  "linkedGuides": 155,
+  "remainingDirectoryEntries": 146,
+  "nextMissing": "Heeney",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Haswell source and static checks passed; deployment pending. Hasty verified live 2026-10-27.",
+  "verification": "Hayden source and static checks passed; deployment pending. Haswell verified live 2026-10-27.",
   "date": "2026-10-27"
 }
