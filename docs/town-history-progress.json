@@ -1,9 +1,9 @@
 {
-  "lastAdded": "Grover",
-  "linkedGuides": 151,
-  "remainingDirectoryEntries": 150,
-  "nextMissing": "Gypsum",
+  "lastAdded": "Gypsum",
+  "linkedGuides": 152,
+  "remainingDirectoryEntries": 149,
+  "nextMissing": "Hasty",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Grover sourced; deployment pending.",
+  "verification": "Gypsum sourced; deployment pending.",
   "date": "2026-10-27"
 }
