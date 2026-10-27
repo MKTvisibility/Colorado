@@ -1,9 +1,9 @@
 {
-  "lastAdded": "Grant",
-  "linkedGuides": 147,
-  "remainingDirectoryEntries": 154,
-  "nextMissing": "Greeley",
+  "lastAdded": "Greeley",
+  "linkedGuides": 148,
+  "remainingDirectoryEntries": 153,
+  "nextMissing": "Green Mountain Falls",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Grant sourced; deployment pending.",
+  "verification": "Greeley sourced; deployment pending.",
   "date": "2026-10-27"
 }
