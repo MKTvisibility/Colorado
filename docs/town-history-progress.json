@@ -1,9 +1,9 @@
 {
-  "lastAdded": "Gypsum",
-  "linkedGuides": 152,
-  "remainingDirectoryEntries": 149,
-  "nextMissing": "Hasty",
+  "lastAdded": "Hasty",
+  "linkedGuides": 153,
+  "remainingDirectoryEntries": 148,
+  "nextMissing": "Haswell",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Gypsum sourced; deployment pending.",
+  "verification": "Hasty source and static checks passed; deployment pending. Gypsum verified HTTP 200 with expected history on 2026-10-27.",
   "date": "2026-10-27"
 }
