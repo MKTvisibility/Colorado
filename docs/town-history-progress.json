@@ -1,9 +1,9 @@
 {
-  "lastAdded": "Greenwood Village",
-  "linkedGuides": 150,
-  "remainingDirectoryEntries": 151,
-  "nextMissing": "Grover",
+  "lastAdded": "Grover",
+  "linkedGuides": 151,
+  "remainingDirectoryEntries": 150,
+  "nextMissing": "Gypsum",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Greenwood Village sourced; deployment pending.",
+  "verification": "Grover sourced; deployment pending.",
   "date": "2026-10-27"
 }
