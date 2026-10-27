@@ -1,9 +1,9 @@
 {
-  "lastAdded": "Granby",
-  "linkedGuides": 144,
-  "remainingDirectoryEntries": 157,
-  "nextMissing": "Grand Junction",
+  "lastAdded": "Grand Junction",
+  "linkedGuides": 145,
+  "remainingDirectoryEntries": 156,
+  "nextMissing": "Grand Lake",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Granby sourced; deployment pending.",
+  "verification": "Grand Junction sourced; deployment pending.",
   "date": "2026-10-27"
 }
