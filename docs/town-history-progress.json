@@ -1,9 +1,9 @@
 {
-  "lastAdded": "Green Mountain Falls",
-  "linkedGuides": 149,
-  "remainingDirectoryEntries": 152,
-  "nextMissing": "Greenwood Village",
+  "lastAdded": "Greenwood Village",
+  "linkedGuides": 150,
+  "remainingDirectoryEntries": 151,
+  "nextMissing": "Grover",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Green Mountain Falls sourced; deployment pending.",
+  "verification": "Greenwood Village sourced; deployment pending.",
   "date": "2026-10-27"
 }
