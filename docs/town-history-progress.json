@@ -1,9 +1,9 @@
 {
-  "lastAdded": "Grand Lake",
-  "linkedGuides": 146,
-  "remainingDirectoryEntries": 155,
-  "nextMissing": "Grant",
+  "lastAdded": "Grant",
+  "linkedGuides": 147,
+  "remainingDirectoryEntries": 154,
+  "nextMissing": "Greeley",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Grand Lake sourced; deployment pending.",
+  "verification": "Grant sourced; deployment pending.",
   "date": "2026-10-27"
 }
