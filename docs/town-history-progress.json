@@ -1,9 +1,9 @@
 {
-  "lastAdded": "Greeley",
-  "linkedGuides": 148,
-  "remainingDirectoryEntries": 153,
-  "nextMissing": "Green Mountain Falls",
+  "lastAdded": "Green Mountain Falls",
+  "linkedGuides": 149,
+  "remainingDirectoryEntries": 152,
+  "nextMissing": "Greenwood Village",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Greeley sourced; deployment pending.",
+  "verification": "Green Mountain Falls sourced; deployment pending.",
   "date": "2026-10-27"
 }
