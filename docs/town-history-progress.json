@@ -1,9 +1,9 @@
 {
-  "lastAdded": "Glendevey",
-  "linkedGuides": 141,
-  "remainingDirectoryEntries": 160,
-  "nextMissing": "Gould",
+  "lastAdded": "Gould",
+  "linkedGuides": 142,
+  "remainingDirectoryEntries": 159,
+  "nextMissing": "Granada",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Glendevey sourced; deployment pending.",
-  "date": "2026-10-26"
+  "verification": "Gould sourced; deployment pending.",
+  "date": "2026-10-27"
 }
