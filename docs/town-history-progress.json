@@ -1,9 +1,9 @@
 {
-  "lastAdded": "Fraser",
-  "linkedGuides": 135,
-  "remainingDirectoryEntries": 166,
-  "nextMissing": "Frisco",
+  "lastAdded": "Frisco",
+  "linkedGuides": 136,
+  "remainingDirectoryEntries": 165,
+  "nextMissing": "Fruita",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Fraser sourced; deployment verification pending.",
+  "verification": "Frisco sourced; deployment pending.",
   "date": "2026-10-26"
 }
