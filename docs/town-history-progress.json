@@ -1,9 +1,9 @@
 {
-  "lastAdded": "Gateway",
-  "linkedGuides": 138,
-  "remainingDirectoryEntries": 163,
-  "nextMissing": "Georgetown",
+  "lastAdded": "Georgetown",
+  "linkedGuides": 139,
+  "remainingDirectoryEntries": 162,
+  "nextMissing": "Glendale",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Gateway sourced; deployment pending.",
+  "verification": "Georgetown sourced; deployment pending.",
   "date": "2026-10-26"
 }
