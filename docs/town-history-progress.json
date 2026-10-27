@@ -1,9 +1,9 @@
 {
-  "lastAdded": "Glendale",
-  "linkedGuides": 140,
-  "remainingDirectoryEntries": 161,
-  "nextMissing": "Glendevey",
+  "lastAdded": "Glendevey",
+  "linkedGuides": 141,
+  "remainingDirectoryEntries": 160,
+  "nextMissing": "Gould",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Glendale sourced; deployment pending.",
+  "verification": "Glendevey sourced; deployment pending.",
   "date": "2026-10-26"
 }
