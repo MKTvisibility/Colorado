@@ -1,9 +1,9 @@
 {
-  "lastAdded": "Holly",
-  "linkedGuides": 159,
-  "remainingDirectoryEntries": 142,
-  "nextMissing": "Holyoke",
+  "lastAdded": "Holyoke",
+  "linkedGuides": 160,
+  "remainingDirectoryEntries": 141,
+  "nextMissing": "Hot Sulphur Springs",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Holly source and static checks passed; deployment pending. Highlands Ranch verified live 2026-10-28.",
+  "verification": "Holyoke source and static checks passed; deployment pending. Holly verified live 2026-10-28.",
   "date": "2026-10-28"
 }
