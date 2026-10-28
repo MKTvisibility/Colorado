@@ -1,9 +1,9 @@
 {
-  "lastAdded": "Holyoke",
-  "linkedGuides": 160,
-  "remainingDirectoryEntries": 141,
-  "nextMissing": "Hot Sulphur Springs",
+  "lastAdded": "Hot Sulphur Springs",
+  "linkedGuides": 161,
+  "remainingDirectoryEntries": 140,
+  "nextMissing": "Hotchkiss",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Holyoke source and static checks passed; deployment pending. Holly verified live 2026-10-28.",
+  "verification": "Hot Sulphur Springs source and static checks passed; deployment pending. Disputed founding date omitted.",
   "date": "2026-10-28"
 }
