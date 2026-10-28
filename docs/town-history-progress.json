@@ -1,9 +1,9 @@
 {
-  "lastAdded": "Heeney",
-  "linkedGuides": 156,
-  "remainingDirectoryEntries": 145,
-  "nextMissing": "Hesperus",
+  "lastAdded": "Hesperus",
+  "linkedGuides": 157,
+  "remainingDirectoryEntries": 144,
+  "nextMissing": "Highlands Ranch",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Heeney source and static checks passed; deployment pending. Hayden verified live 2026-10-27.",
+  "verification": "Hesperus source and static checks passed; deployment pending. Heeney verified live 2026-10-27.",
   "date": "2026-10-27"
 }
