@@ -1,9 +1,9 @@
 {
-  "lastAdded": "Hot Sulphur Springs",
-  "linkedGuides": 161,
-  "remainingDirectoryEntries": 140,
-  "nextMissing": "Hotchkiss",
+  "lastAdded": "Hotchkiss",
+  "linkedGuides": 162,
+  "remainingDirectoryEntries": 139,
+  "nextMissing": "Howard",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Hot Sulphur Springs source and static checks passed; deployment pending. Disputed founding date omitted.",
+  "verification": "Hotchkiss source and static checks passed; deployment pending. Hot Sulphur Springs verified live 2026-10-28.",
   "date": "2026-10-28"
 }
