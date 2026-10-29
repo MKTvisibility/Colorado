@@ -1,9 +1,9 @@
 {
-  "lastAdded": "Julesburg",
-  "linkedGuides": 170,
-  "remainingDirectoryEntries": 131,
-  "nextMissing": "Kersey",
+  "lastAdded": "Kersey",
+  "linkedGuides": 171,
+  "remainingDirectoryEntries": 130,
+  "nextMissing": "Keystone",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Julesburg verified on GitHub Pages with expected history 2026-10-29; deployment eb12cb7d4591b8973d4397dea644557371cd934a completed successfully. Custom-domain homepage and Julesburg requests timed out; custom-domain verification pending.",
+  "verification": "Kersey static/XML/directory-target checks passed; deployment pending. Julesburg custom domain verified 2026-10-29.",
   "date": "2026-10-29"
 }
