@@ -4,6 +4,6 @@
   "remainingDirectoryEntries": 133,
   "nextMissing": "Johnstown",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Jamestown source and static checks passed; deployment pending. Ignacio verified live 2026-10-29.",
+  "verification": "Jamestown verified HTTP 200 with expected history on custom domain and GitHub Pages; live directory link verified. GitHub Pages deployment 75b5d07927f7f272fbfc5cfd5df2e884604e622f completed successfully 2026-10-29. Static, XML and internal-target checks passed.",
   "date": "2026-10-29"
 }
