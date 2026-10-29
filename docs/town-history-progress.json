@@ -1,9 +1,9 @@
 {
-  "lastAdded": "Jamestown",
-  "linkedGuides": 168,
-  "remainingDirectoryEntries": 133,
-  "nextMissing": "Johnstown",
+  "lastAdded": "Johnstown",
+  "linkedGuides": 169,
+  "remainingDirectoryEntries": 132,
+  "nextMissing": "Julesburg",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Jamestown verified HTTP 200 with expected history on custom domain and GitHub Pages; live directory link verified. GitHub Pages deployment 75b5d07927f7f272fbfc5cfd5df2e884604e622f completed successfully 2026-10-29. Static, XML and internal-target checks passed.",
+  "verification": "Johnstown static checks passed; publication pending.",
   "date": "2026-10-29"
 }
