@@ -1,9 +1,9 @@
 {
-  "lastAdded": "Johnstown",
-  "linkedGuides": 169,
-  "remainingDirectoryEntries": 132,
-  "nextMissing": "Julesburg",
+  "lastAdded": "Julesburg",
+  "linkedGuides": 170,
+  "remainingDirectoryEntries": 131,
+  "nextMissing": "Kersey",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Johnstown verified HTTP 200 with expected history on mktcolorado.com and GitHub Pages on 2026-10-29. Both homepages HTTP 200.",
+  "verification": "Julesburg static/XML/internal-target checks passed; deployment pending.",
   "date": "2026-10-29"
 }
