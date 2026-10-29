@@ -4,6 +4,6 @@
   "remainingDirectoryEntries": 131,
   "nextMissing": "Kersey",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Julesburg static/XML/internal-target checks passed; deployment pending.",
+  "verification": "Julesburg verified on GitHub Pages with expected history 2026-10-29; deployment eb12cb7d4591b8973d4397dea644557371cd934a completed successfully. Custom-domain homepage and Julesburg requests timed out; custom-domain verification pending.",
   "date": "2026-10-29"
 }
