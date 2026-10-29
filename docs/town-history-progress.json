@@ -4,6 +4,6 @@
   "remainingDirectoryEntries": 132,
   "nextMissing": "Julesburg",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Johnstown static checks passed; publication pending.",
+  "verification": "Johnstown verified HTTP 200 with expected history on mktcolorado.com and GitHub Pages on 2026-10-29. Both homepages HTTP 200.",
   "date": "2026-10-29"
 }
