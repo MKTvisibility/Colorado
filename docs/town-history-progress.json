@@ -1,9 +1,9 @@
 {
-  "lastAdded": "Idledale",
-  "linkedGuides": 166,
-  "remainingDirectoryEntries": 135,
-  "nextMissing": "Ignacio",
+  "lastAdded": "Ignacio",
+  "linkedGuides": 167,
+  "remainingDirectoryEntries": 134,
+  "nextMissing": "Jamestown",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Idledale source and static checks passed; deployment pending. Idalia verified live 2026-10-28.",
+  "verification": "Ignacio source and static checks passed; deployment pending. Idledale verified live 2026-10-29.",
   "date": "2026-10-29"
 }
