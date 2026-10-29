@@ -1,9 +1,9 @@
 {
-  "lastAdded": "Howard",
-  "linkedGuides": 163,
-  "remainingDirectoryEntries": 138,
-  "nextMissing": "Hugo",
+  "lastAdded": "Hugo",
+  "linkedGuides": 164,
+  "remainingDirectoryEntries": 137,
+  "nextMissing": "Idalia",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Howard source and static checks passed; deployment pending. Hotchkiss verified live 2026-10-28.",
+  "verification": "Hugo source and static checks passed; deployment pending. Howard verified live 2026-10-28.",
   "date": "2026-10-28"
 }
