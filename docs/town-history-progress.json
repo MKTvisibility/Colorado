@@ -1,9 +1,9 @@
 {
-  "lastAdded": "Kersey",
-  "linkedGuides": 171,
-  "remainingDirectoryEntries": 130,
-  "nextMissing": "Keystone",
+  "lastAdded": "Keystone",
+  "linkedGuides": 172,
+  "remainingDirectoryEntries": 129,
+  "nextMissing": "Kim",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Kersey verified HTTP 200 with expected history on custom domain and GitHub Pages 2026-10-29; both homepages HTTP 200. Static/XML/directory-target checks passed.",
+  "verification": "Keystone static/XML/directory-target checks passed; deployment pending.",
   "date": "2026-10-29"
 }
