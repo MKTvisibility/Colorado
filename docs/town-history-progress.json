@@ -4,6 +4,6 @@
   "remainingDirectoryEntries": 129,
   "nextMissing": "Kim",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Keystone static/XML/directory-target checks passed; deployment pending.",
+  "verification": "Keystone verified HTTP 200 with expected history and home-rule incorporation wording on custom domain and GitHub Pages 2026-10-29; both homepages HTTP 200. Static/XML/directory-target checks passed.",
   "date": "2026-10-29"
 }
