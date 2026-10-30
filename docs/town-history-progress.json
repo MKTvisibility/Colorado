@@ -1,9 +1,9 @@
 {
-  "lastAdded": "Kiowa",
-  "linkedGuides": 174,
-  "remainingDirectoryEntries": 127,
-  "nextMissing": "Kit Carson",
+  "lastAdded": "Kit Carson",
+  "linkedGuides": 175,
+  "remainingDirectoryEntries": 126,
+  "nextMissing": "Kittredge",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Kiowa verified HTTP 200 with expected history on custom domain and GitHub Pages 2026-10-30; both homepages HTTP 200. Static/XML/directory-target checks passed.",
+  "verification": "Kit Carson static/XML/directory-target checks passed; publication pending.",
   "date": "2026-10-30"
 }
