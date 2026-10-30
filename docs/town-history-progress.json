@@ -1,9 +1,9 @@
 {
-  "lastAdded": "Kremmling",
-  "linkedGuides": 177,
-  "remainingDirectoryEntries": 124,
-  "nextMissing": "La Junta",
+  "lastAdded": "La Junta",
+  "linkedGuides": 178,
+  "remainingDirectoryEntries": 123,
+  "nextMissing": "La Veta",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Kremmling verified HTTP 200 with expected history on custom domain and GitHub Pages 2026-10-30; both homepages HTTP 200. Static/XML/directory-target checks passed.",
+  "verification": "La Junta static/XML/directory-target checks passed; publication pending.",
   "date": "2026-10-30"
 }
