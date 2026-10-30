@@ -1,9 +1,9 @@
 {
-  "lastAdded": "Keystone",
-  "linkedGuides": 172,
-  "remainingDirectoryEntries": 129,
-  "nextMissing": "Kim",
+  "lastAdded": "Kim",
+  "linkedGuides": 173,
+  "remainingDirectoryEntries": 128,
+  "nextMissing": "Kiowa",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Keystone verified HTTP 200 with expected history and home-rule incorporation wording on custom domain and GitHub Pages 2026-10-29; both homepages HTTP 200. Static/XML/directory-target checks passed.",
+  "verification": "Kim static/XML/directory-target checks passed; publication pending.",
   "date": "2026-10-29"
 }
