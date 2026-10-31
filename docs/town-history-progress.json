@@ -1,9 +1,9 @@
 {
-  "lastAdded": "Lake City",
-  "linkedGuides": 181,
-  "remainingDirectoryEntries": 120,
-  "nextMissing": "Lake George",
+  "lastAdded": "Lake George",
+  "linkedGuides": 182,
+  "remainingDirectoryEntries": 119,
+  "nextMissing": "Lakewood",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Lake City verified HTTP 200 with expected history and canonical on custom domain and GitHub Pages 2026-10-31. Both homepages, directories and sitemaps HTTP 200; Lake City mapping present on both domains. GitHub Pages deployment d862497 succeeded.",
+  "verification": "Lake George static/XML/directory checks passed; deployment verification pending.",
   "date": "2026-10-31"
 }
