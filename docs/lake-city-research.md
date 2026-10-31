@@ -1,0 +1,5 @@
+# Lake City research checkpoint
+
+2026-10-31: Fresh main: 180 linked guides,121 remaining; Lake City next. No lake-city/lakecity page found.
+
+Town primary source https://www.townoflakecityco.gov/an-introduction-to-lake-city-s-history documents fall1874 platting following Hotchkiss Mine discovery, mining supply center,1889 Denver & Rio Grande branch,1893 silver panic,1904 Golden Fleece closure,1929 Liska auto tourist camp. https://www.townoflakecityco.gov/metropolis-of-the-san-juan gives incorporation August16,1875. https://www.townoflakecityco.gov/historic-preservation-in-lake-city documents preserved1875–1904 buildings and historical society formed1973. Federal nomination https://npgallery.nps.gov/pdfhost/docs/NRHP/Text/78000859.pdf corroborates historic district. Omit precise county-seat transfer month: sources differ January/February1875. Avoid implying mining began on empty land; Ute homeland and1873 Brunot Agreement context require careful wording. Draft can focus on town platting,incorporation,railroad,decline and tourism in90–110words. No guide published yet; municipality audit remains unfinished.
