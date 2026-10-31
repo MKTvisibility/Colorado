@@ -1,0 +1,5 @@
+# Laporte research checkpoint
+
+2026-10-31: Fresh main184linked/117remaining;Laporte next. No Laporte/La-Porte named page found.
+
+County https://www.larimer.gov/sites/default/files/uploads/2017/laporte_plan.pdf documents Antoine Janis1844 claim,1858 return and Colona Town Company,1862 Overland rerouting. Municipal history https://history.fcgov.com/contexts/colorado and https://history.fcgov.com/timeline/ corroborate1861 county-seat designation and1862 stage route. Museum https://fcmod.org/trails/tour2/tour2-laporte.html corroborates county seat and stage stop. NPS https://www.nps.gov/people/joseph-antoine-janis.htm corroborates1858 Colona founding,1844 squatter claim (do not equate claim with permanent settlement). Heritage https://poudreheritage.org/locations/overland-trail-stage-stop/ documents1862 name change and Mountain Division headquarters. Verify unincorporated status from county plan before publishing; reconcile Laporte/LaPorte/La Porte as aliases, one guide. Avoid claims of first settlement that erase Indigenous presence. No guide published; municipality audit unfinished.
