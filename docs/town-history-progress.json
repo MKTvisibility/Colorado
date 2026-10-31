@@ -4,6 +4,6 @@
   "remainingDirectoryEntries": 122,
   "nextMissing": "Lafayette",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Static and directory-target checks passed; La Veta deployment pending verification.",
+  "verification": "La Veta verified HTTP 200 with expected history on custom domain and GitHub Pages 2026-10-30; directory and sitemap verified on both domains. GitHub Pages deployment 661c6ed succeeded. Static/XML/directory-target checks passed.",
   "date": "2026-10-30"
 }
