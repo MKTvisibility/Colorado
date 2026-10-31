@@ -1,0 +1,5 @@
+# Lafayette research checkpoint
+
+2026-10-30: Fresh main has 179 linked guides and 122 remaining directory entries; Lafayette is next. No Lafayette-named page exists.
+
+City sources: https://www.lafayetteco.gov/DocumentCenter/View/159/History-of-Lafayette?bidId= and https://www.lafayetteco.gov/395/Lafayette-Stories document Mary Miller founding the coal town in 1888 and naming it for her late husband. City 2020 preservation plan https://www.lafayetteco.gov/DocumentCenter/View/28271/Historic-Preservation-Plan-?bidId= corroborates founding. Sources disagree on original plat acreage (37 versus 150 acres), month and coal-discovery timing: omit these details. Historical society https://www.lafayettehistory.com/about-lafayette/ corroborates founding in 1888. City stories document Miller Bank organized in 1892, renamed Lafayette Bank in 1902, and closure in 1914 following loans to United Mine Workers. Avoid unsupported claim about being the only female bank president. No guide published this run; municipality audit remains unfinished.
