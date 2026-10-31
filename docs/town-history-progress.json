@@ -4,6 +4,6 @@
   "remainingDirectoryEntries": 118,
   "nextMissing": "Lamar",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Lakewood static/XML/directory checks passed; deployment verification pending.",
+  "verification": "Lakewood verified HTTP 200 with expected history and canonical on custom domain and GitHub Pages 2026-10-31. Both homepages, directories and sitemaps HTTP 200; Lakewood mapping present on both domains. GitHub Pages deployment dc71272 succeeded.",
   "date": "2026-10-31"
 }
