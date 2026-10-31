@@ -1,9 +1,9 @@
 {
-  "lastAdded": "Lafayette",
-  "linkedGuides": 180,
-  "remainingDirectoryEntries": 121,
-  "nextMissing": "Lake City",
+  "lastAdded": "Lake City",
+  "linkedGuides": 181,
+  "remainingDirectoryEntries": 120,
+  "nextMissing": "Lake George",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Lafayette verified HTTP 200 with expected history and canonical on custom domain and GitHub Pages 2026-10-30. Both homepages, directories and sitemaps HTTP 200; Lafayette mapping present on both domains. GitHub Pages deployment 578d732 succeeded.",
-  "date": "2026-10-30"
+  "verification": "Lake City static/XML/directory checks passed; deployment verification pending.",
+  "date": "2026-10-31"
 }
