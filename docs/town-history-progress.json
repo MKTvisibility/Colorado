@@ -1,9 +1,9 @@
 {
-  "lastAdded": "La Veta",
-  "linkedGuides": 179,
-  "remainingDirectoryEntries": 122,
-  "nextMissing": "Lafayette",
+  "lastAdded": "Lafayette",
+  "linkedGuides": 180,
+  "remainingDirectoryEntries": 121,
+  "nextMissing": "Lake City",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "La Veta verified HTTP 200 with expected history on custom domain and GitHub Pages 2026-10-30; directory and sitemap verified on both domains. GitHub Pages deployment 661c6ed succeeded. Static/XML/directory-target checks passed.",
+  "verification": "Lafayette static/XML/directory checks passed; deployment verification pending.",
   "date": "2026-10-30"
 }
