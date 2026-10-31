@@ -1,0 +1,5 @@
+# Lake George research checkpoint
+
+2026-10-31: Fresh main181 linked/120remaining;Lake George next. No lake-george/lakegeorge page found.
+
+South Park National Heritage Area https://southparkheritage.org/lake-george/ documents George Washington Frost, dam construction begun1890, ice for railroad produce cars,1923 flood destroying dam,1937 rebuilding by C.E.Stevenson and highway tourism. County archives https://www.parkcoarchives.org/Archives_Newsletter_Oct13.pdf corroborates1891 lake and ice operation; mansion fire December1922. County https://www.parkcountyco.gov/Archive.aspx?ADID=3317 documents lake completed December1891. https://www.parkcountyco.gov/394/Lake-George-Area provides local historic landmarks. Ute Pass Historical Society https://www.utepasshs.org/post/the-ice-industry-in-the-pikes-peak-region notes ice freights continued after1918 before1921 track removal; avoid claiming all rail service ended1918. Focus on1890s ice industry,1923 flood,1937 resort revival. Community is unincorporated; verify official classification before publishing. No guide published yet; municipality audit unfinished.
