@@ -1,9 +1,9 @@
 {
-  "lastAdded": "La Junta",
-  "linkedGuides": 178,
-  "remainingDirectoryEntries": 123,
-  "nextMissing": "La Veta",
+  "lastAdded": "La Veta",
+  "linkedGuides": 179,
+  "remainingDirectoryEntries": 122,
+  "nextMissing": "Lafayette",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "La Junta verified HTTP 200 with expected history on custom domain and GitHub Pages 2026-10-30; both homepages HTTP 200. Static/XML/directory-target checks passed.",
+  "verification": "Static and directory-target checks passed; La Veta deployment pending verification.",
   "date": "2026-10-30"
 }
