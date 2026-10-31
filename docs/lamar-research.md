@@ -1,0 +1,5 @@
+# Lamar research checkpoint
+
+2026-10-31: Fresh main183 linked/118remaining;Lamar next. No Lamar-named page found.
+
+City https://ci.lamar.co.us/about-lamar documents May1886 relocation of Blackwell depot three miles west after land negotiations failed. Federal ACHP https://www.achp.gov/preserve-america/community/prowers-county-colorado corroborates relocation and county-seat status. NPS https://www.nps.gov/places/lamar-welcome-center.htm corroborates1886 founding and rail replacing Santa Fe Trail trade. City preservation https://ci.lamar.co.us/national-state-registers documents1907 AT&SF passenger depot as regional-hub landmark. Amtrak https://www.greatamericanstations.com/stations/lamar-co-lmr/ corroborates1886 relocation and namesake Interior Secretary Lucius Quintus Cincinnatus Lamar. Prefer factual relocation wording rather than sensational theft narrative; omit uncertain telegram details. Suggested90–110word summary:1886 depot move, railroad and agriculture,county seat,1907 depot. No guide published; municipality audit unfinished.
