@@ -4,6 +4,6 @@
   "remainingDirectoryEntries": 114,
   "nextMissing": "Leadville",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Las Animas static/XML/directory checks passed; deployment verification pending.",
+  "verification": "Las Animas verified HTTP 200 with expected history and canonical on custom domain and GitHub Pages 2026-10-31. Both homepages, directories and sitemaps HTTP 200; Las Animas mapping present on both domains. GitHub Pages deployment 755528f succeeded.",
   "date": "2026-10-31"
 }
