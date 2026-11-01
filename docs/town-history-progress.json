@@ -1,9 +1,9 @@
 {
-  "lastAdded": "Livermore",
-  "linkedGuides": 190,
-  "remainingDirectoryEntries": 111,
-  "nextMissing": "Lone Tree",
+  "lastAdded": "Lone Tree",
+  "linkedGuides": 191,
+  "remainingDirectoryEntries": 110,
+  "nextMissing": "Louisville",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Livermore verified HTTP 200 with expected history, H1, canonical and map above footer on custom domain and GitHub Pages 2026-11-01. Both live directories and sitemaps HTTP 200 with Livermore links present. GitHub Pages deployment d826ee6 completed successfully. Static internal-target, metadata and directory mapping checks passed.",
+  "verification": "Lone Tree static checks passed; live deployment verification pending.",
   "date": "2026-11-01"
 }
