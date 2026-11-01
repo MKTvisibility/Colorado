@@ -1,9 +1,9 @@
 {
-  "lastAdded": "Las Animas",
-  "linkedGuides": 187,
-  "remainingDirectoryEntries": 114,
-  "nextMissing": "Leadville",
+  "lastAdded": "Leadville",
+  "linkedGuides": 188,
+  "remainingDirectoryEntries": 113,
+  "nextMissing": "Limon",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Las Animas verified HTTP 200 with expected history and canonical on custom domain and GitHub Pages 2026-10-31. Both homepages, directories and sitemaps HTTP 200; Las Animas mapping present on both domains. GitHub Pages deployment 755528f succeeded.",
-  "date": "2026-10-31"
+  "verification": "Leadville static/XML/directory checks passed; deployment verification pending.",
+  "date": "2026-11-01"
 }
