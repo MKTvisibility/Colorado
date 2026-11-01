@@ -1,0 +1,5 @@
+# Las Animas research checkpoint
+
+2026-10-31: Main186linked/115remaining;Las Animas next. No matching named page found.
+
+Official city https://cityoflasanimasco.gov/pages/about-us confirms statutory city, Bent County seat and only incorporated municipality in Bent County. Museum https://www.bentcountyheritage.org/more-about-the-j-w-rawlings-museum/ documents Kansas Pacific Arkansas branch reaching Las Animas summer1873. Federal BLM history https://npshistory.com/publications/blm/cultresser/co/17/chap9.htm dates Santa Fe arrival September1875; do not conflate railroads or say Santa Fe arrived1873. SAH https://sah-archipedia.org/essays/CO-01-0002-0012-0001 describes cattle shipping and county seat moving from Boggsville. State https://www.historycolorado.org/taxonomy/term/685 historic buildings. Need read museum fulltext and reconcile old Las Animas City versus West Las Animas relocation before writing chronological founding claim. City is in Bent County, not Las Animas County (some travel pages mislabel). Avoid unsupported lost-souls legend. No guide published; municipality audit unfinished.
