@@ -1,0 +1,5 @@
+# Livermore research checkpoint
+
+2026-11-01: Fresh main189linked/112remaining;Livermore next. No Livermore-named page found.
+
+Red Feather Historical Society https://redfeatherhistoricalsociety.org/wp-content/uploads/2012/04/RFHSNewsletter2016.pdf documents1863 cabin by Adolphus Livernash and Stephen/Stephan Moore. Municipal archive https://history.fcgov.com/schools/mountain dates community1860s and supplies school history. School district https://mtn.psdschools.org/lin/node/1116 documents1884 schoolhouse replaced1953. Federal https://npgallery.nps.gov/AssetDetail/NRIS/01000970 identifies Livermore Hotel and General Store (read nomination before hoteldates). Local preservation https://historiclarimercounty.org/about/history/ describes moving historic community building near school. Avoid California Livermore sources, especially lhg.org school PDF (not Colorado). Confirm unincorporated status from county and read school page fulltext before guide. No guidepublished;municipalityauditunfinished.
