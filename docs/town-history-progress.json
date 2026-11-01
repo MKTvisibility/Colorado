@@ -1,9 +1,9 @@
 {
-  "lastAdded": "Lone Tree",
-  "linkedGuides": 191,
-  "remainingDirectoryEntries": 110,
-  "nextMissing": "Louisville",
+  "lastAdded": "Louisville",
+  "linkedGuides": 192,
+  "remainingDirectoryEntries": 109,
+  "nextMissing": "Loveland",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Lone Tree verified HTTP 200 with expected history, H1, canonical and map above footer on both live domains 2026-11-01. Both homepages, directories, XML and HTML sitemaps HTTP 200; Lone Tree links present. GitHub Pages deployment b98f243 completed successfully. Static relative targets, directory destinations and XML syntax checks passed.",
+  "verification": "Louisville static checks passed; deployment and live verification pending.",
   "date": "2026-11-01"
 }
