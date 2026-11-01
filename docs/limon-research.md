@@ -1,0 +1,5 @@
+# Limon research checkpoint
+
+2026-11-01: Fresh main188linked/113remaining;Limon next. No Limon-named page found.
+
+Denver Public Library chronology https://history.denverlibrary.org/sites/history/files/Colorado%20Chronology%202019%202.pdf documents1888 construction camp at Rock Island/Kansas Pacific junction and1909 incorporation. Official tourism https://www.colorado.com/en/cities-and-towns/limon corroborates1888 camp. Town https://www.townoflimon.com/index.php/local-info/culture/heritage-museum documents1910 depot restored by Heritage Society. Museum https://www.limonmuseum.com/ and https://www.limonmuseum.com/our-history document depot and conversion to museum. State https://www.historycolorado.org/taxonomy/term/2855 documents1910 wood-frame depot; museum snippet calls rebuiltbrick,so omit material. SAH https://sah-archipedia.org/essays/CO-01-0001-0019-0004 corroboratesrail junction and foreman namesake. Avoid precise namesake first name without stronger source. Suggested summary1888camp,1909incorporation,rail employment,1910depot and preservedheritage. No guidepublished;municipalityauditunfinished.
