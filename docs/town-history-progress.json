@@ -4,6 +4,6 @@
   "remainingDirectoryEntries": 113,
   "nextMissing": "Limon",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Leadville static/XML/directory checks passed; deployment verification pending.",
+  "verification": "Leadville verified HTTP 200 with expected history and canonical on custom domain and GitHub Pages 2026-11-01. Both homepages, directories and sitemaps HTTP 200; Leadville mapping present on both domains. GitHub Pages deployment 82bbb32 succeeded.",
   "date": "2026-11-01"
 }
