@@ -1,0 +1,5 @@
+# Leadville research checkpoint
+
+2026-10-31: Fresh main187linked/114remaining;Leadville next. No Leadville-named page found.
+
+Federal ACHP https://www.achp.gov/preserve-america/community/leadville-colorado documents silver mining expansion1877–mid1890s and preserved commercial architecture. Municipal survey https://www.leadville-co.gov/media/496 labels silver boom1877–1893 and later economic eras. State Bureau of Mines1917–18 https://spl.cde.state.co.us/artemis/nrserials/nr92001internet/nr92001191718internet.pdf gives city organization/name January14,1878; verify before precise date. Municipal preservation https://www.leadville-co.gov/historic-preservation-commission documents commission established2013. Official destination https://www.leadvilletwinlakes.com/history/ discusses1860 gold,1870s silver,1893 crash and later molybdenum. Avoid unsupported population totals and conflicting landmark designation dates1961/1966;verify NPS before using. Can write around1860 California Gulch gold,1877–78 silver expansion,1893 crash,diversified mining and preserved downtown. No guide published;municipality audit unfinished.
