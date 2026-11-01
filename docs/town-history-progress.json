@@ -4,6 +4,6 @@
   "remainingDirectoryEntries": 111,
   "nextMissing": "Lone Tree",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Livermore static and internal-target checks passed; deployment and live verification pending.",
+  "verification": "Livermore verified HTTP 200 with expected history, H1, canonical and map above footer on custom domain and GitHub Pages 2026-11-01. Both live directories and sitemaps HTTP 200 with Livermore links present. GitHub Pages deployment d826ee6 completed successfully. Static internal-target, metadata and directory mapping checks passed.",
   "date": "2026-11-01"
 }
