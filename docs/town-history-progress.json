@@ -4,6 +4,6 @@
   "remainingDirectoryEntries": 109,
   "nextMissing": "Loveland",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Louisville static checks passed; deployment and live verification pending.",
+  "verification": "Louisville verified HTTP 200 with expected history, H1, canonical and map above footer on both live domains 2026-11-01. Both homepages, directories and XML/HTML sitemaps HTTP 200; Louisville links present. GitHub Pages deployment 1020d85 completed successfully. Static relative targets, directory destinations and XML syntax checks passed.",
   "date": "2026-11-01"
 }
