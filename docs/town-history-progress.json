@@ -1,9 +1,9 @@
 {
-  "lastAdded": "Laporte",
-  "linkedGuides": 185,
-  "remainingDirectoryEntries": 116,
-  "nextMissing": "Larkspur",
+  "lastAdded": "Larkspur",
+  "linkedGuides": 186,
+  "remainingDirectoryEntries": 115,
+  "nextMissing": "Las Animas",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Laporte verified HTTP 200 with expected history and canonical on custom domain and GitHub Pages 2026-10-31. Both homepages, directories and sitemaps HTTP 200; Laporte mapping present on both domains. GitHub Pages deployment a5a983b succeeded.",
+  "verification": "Larkspur static/XML/directory checks passed; deployment verification pending.",
   "date": "2026-10-31"
 }
