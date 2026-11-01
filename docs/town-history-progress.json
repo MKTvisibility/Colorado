@@ -4,6 +4,6 @@
   "remainingDirectoryEntries": 115,
   "nextMissing": "Las Animas",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Larkspur static/XML/directory checks passed; deployment verification pending.",
+  "verification": "Larkspur verified HTTP 200 with expected history and canonical on custom domain and GitHub Pages 2026-10-31. Both homepages, directories and sitemaps HTTP 200; Larkspur mapping present on both domains. GitHub Pages deployment 9a22d47 succeeded.",
   "date": "2026-10-31"
 }
