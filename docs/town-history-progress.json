@@ -1,9 +1,9 @@
 {
-  "lastAdded": "Limon",
-  "linkedGuides": 189,
-  "remainingDirectoryEntries": 112,
-  "nextMissing": "Livermore",
+  "lastAdded": "Livermore",
+  "linkedGuides": 190,
+  "remainingDirectoryEntries": 111,
+  "nextMissing": "Lone Tree",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Limon verified HTTP 200 with expected history and canonical on custom domain and GitHub Pages 2026-11-01. Both homepages, directories and sitemaps HTTP 200; Limon mapping present on both domains. GitHub Pages deployment b943ad5 succeeded.",
+  "verification": "Livermore static and internal-target checks passed; deployment and live verification pending.",
   "date": "2026-11-01"
 }
