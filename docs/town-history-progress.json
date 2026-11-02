@@ -1,9 +1,9 @@
 {
-  "lastAdded": "Maybell",
-  "linkedGuides": 198,
-  "remainingDirectoryEntries": 103,
-  "nextMissing": "McCoy",
+  "lastAdded": "McCoy",
+  "linkedGuides": 199,
+  "remainingDirectoryEntries": 102,
+  "nextMissing": "Meeker",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Maybell verified HTTP 200 with expected history, H1, canonical and map above footer on both domains 2026-11-02. Both homepages, directories and XML/HTML sitemaps HTTP 200 with Maybell links. Pages deployment 84806b7 completed successfully. Verification record retried after transient GitHub failure.",
+  "verification": "McCoy static checks passed; deployment and live verification pending.",
   "date": "2026-11-02"
 }
