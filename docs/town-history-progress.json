@@ -4,6 +4,6 @@
   "remainingDirectoryEntries": 103,
   "nextMissing": "McCoy",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Maybell static checks passed; deployment and live verification pending.",
+  "verification": "Maybell verified HTTP 200 with expected history, H1, canonical and map above footer on both domains 2026-11-02. Both homepages, directories and XML/HTML sitemaps HTTP 200 with Maybell links. Pages deployment 84806b7 completed successfully. Verification record retried after transient GitHub failure.",
   "date": "2026-11-02"
 }
