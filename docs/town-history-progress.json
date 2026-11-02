@@ -1,9 +1,9 @@
 {
-  "lastAdded": "Manzanola",
-  "linkedGuides": 196,
-  "remainingDirectoryEntries": 105,
-  "nextMissing": "Marble",
+  "lastAdded": "Marble",
+  "linkedGuides": 197,
+  "remainingDirectoryEntries": 104,
+  "nextMissing": "Maybell",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Manzanola verified HTTP 200 with expected history, H1, canonical and map above footer on both live domains 2026-11-02. Both homepages, directories and XML/HTML sitemaps HTTP 200; Manzanola links present. GitHub Pages deployment 70e6e88 completed successfully. Static relative targets, directory destinations and XML syntax checks passed.",
+  "verification": "Marble static checks passed; deployment and live verification pending.",
   "date": "2026-11-02"
 }
