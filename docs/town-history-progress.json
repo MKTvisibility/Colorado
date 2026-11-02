@@ -4,6 +4,6 @@
   "remainingDirectoryEntries": 104,
   "nextMissing": "Maybell",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Marble static checks passed; deployment and live verification pending.",
+  "verification": "Marble verified HTTP 200 with expected history, H1, canonical and map above footer on both live domains 2026-11-02. Both homepages, directories and XML/HTML sitemaps HTTP 200; Marble links present. GitHub Pages deployment d59bef0 completed successfully. Static relative targets, directory destinations and XML syntax checks passed.",
   "date": "2026-11-02"
 }
