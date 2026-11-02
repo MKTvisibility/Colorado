@@ -4,6 +4,6 @@
   "remainingDirectoryEntries": 102,
   "nextMissing": "Meeker",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "McCoy static checks passed; deployment and live verification pending.",
+  "verification": "McCoy verified HTTP 200 with expected H1, history and canonical on both domains; directory and both sitemap links verified live. GitHub Pages deployment 991493175b3c6dc71514ed4b7deaa378dcafdf81 completed successfully.",
   "date": "2026-11-02"
 }
