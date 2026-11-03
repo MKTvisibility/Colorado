@@ -4,6 +4,6 @@
   "remainingDirectoryEntries": 101,
   "nextMissing": "Mesa",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Meeker static checks passed; deployment and live verification pending.",
+  "verification": "Meeker verified HTTP 200 with expected H1, history, canonical and map above footer on both domains. Directory and both sitemap links verified live. GitHub Pages deployment 6bf230d08a34ddc0ae1808b225e703aba8b9ee70 completed successfully.",
   "date": "2026-11-02"
 }
