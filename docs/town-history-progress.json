@@ -1,9 +1,9 @@
 {
-  "lastAdded": "Monument",
-  "linkedGuides": 207,
-  "remainingDirectoryEntries": 94,
-  "nextMissing": "Morrison",
+  "lastAdded": "Morrison",
+  "linkedGuides": 208,
+  "remainingDirectoryEntries": 93,
+  "nextMissing": "Naturita",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Monument guide, directory and both sitemaps verified live. GitHub Pages URL redirects to canonical site. Pages deployment 40ad6e82a98c0d00f395f3fb4910fc1443be5965 succeeded.",
+  "verification": "Morrison committed. Live verification pending.",
   "date": "2026-11-03"
 }
