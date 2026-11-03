@@ -1,9 +1,9 @@
 {
-  "lastAdded": "Monarch",
-  "linkedGuides": 205,
-  "remainingDirectoryEntries": 96,
-  "nextMissing": "Monte Vista",
+  "lastAdded": "Monte Vista",
+  "linkedGuides": 206,
+  "remainingDirectoryEntries": 95,
+  "nextMissing": "Monument",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Monarch guide, directory and both sitemaps verified live. GitHub Pages URL redirects to canonical site. Pages deployment e7893554b72292b742780f84dd5fb637c9be5211 succeeded.",
+  "verification": "Monte Vista committed. Live verification pending.",
   "date": "2026-11-03"
 }
