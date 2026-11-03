@@ -4,6 +4,6 @@
   "remainingDirectoryEntries": 94,
   "nextMissing": "Morrison",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Monument committed. Live verification pending.",
+  "verification": "Monument guide, directory and both sitemaps verified live. GitHub Pages URL redirects to canonical site. Pages deployment 40ad6e82a98c0d00f395f3fb4910fc1443be5965 succeeded.",
   "date": "2026-11-03"
 }
