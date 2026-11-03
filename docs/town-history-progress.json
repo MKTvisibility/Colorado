@@ -4,6 +4,6 @@
   "remainingDirectoryEntries": 100,
   "nextMissing": "Milliken",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Mesa static checks passed; deployment and live verification pending.",
+  "verification": "Mesa verified live on both domains with expected history, H1, canonical and map placement. Directory and both sitemaps checked. Pages deployment f3aba8ca2b9a79f06943b5a6f1c1c8d104a87358 succeeded.",
   "date": "2026-11-02"
 }
