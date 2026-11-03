@@ -4,6 +4,6 @@
   "remainingDirectoryEntries": 99,
   "nextMissing": "Minturn",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Milliken guide and links committed. Live verification pending.",
+  "verification": "Milliken guide, directory and both sitemaps verified live. GitHub Pages URL redirects to canonical site. Pages deployment f6e824cf1f9a75e1d4c43f805c1be6cfe98fcdc4 succeeded.",
   "date": "2026-11-03"
 }
