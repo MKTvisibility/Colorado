@@ -1,9 +1,9 @@
 {
-  "lastAdded": "Moffat",
-  "linkedGuides": 204,
-  "remainingDirectoryEntries": 97,
-  "nextMissing": "Monarch",
+  "lastAdded": "Monarch",
+  "linkedGuides": 205,
+  "remainingDirectoryEntries": 96,
+  "nextMissing": "Monte Vista",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Moffat guide, directory and both sitemaps verified live. GitHub Pages URL redirects to canonical site. Pages deployment 59c679e7c89a564d47a2512f784baae507cb220c succeeded.",
+  "verification": "Monarch committed. Live verification pending.",
   "date": "2026-11-03"
 }
