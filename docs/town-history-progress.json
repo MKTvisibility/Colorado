@@ -1,9 +1,9 @@
 {
-  "lastAdded": "Milliken",
-  "linkedGuides": 202,
-  "remainingDirectoryEntries": 99,
-  "nextMissing": "Minturn",
+  "lastAdded": "Minturn",
+  "linkedGuides": 203,
+  "remainingDirectoryEntries": 98,
+  "nextMissing": "Moffat",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Milliken guide, directory and both sitemaps verified live. GitHub Pages URL redirects to canonical site. Pages deployment f6e824cf1f9a75e1d4c43f805c1be6cfe98fcdc4 succeeded.",
+  "verification": "Minturn committed. Live verification pending.",
   "date": "2026-11-03"
 }
