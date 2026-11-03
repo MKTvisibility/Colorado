@@ -1,9 +1,9 @@
 {
-  "lastAdded": "Minturn",
-  "linkedGuides": 203,
-  "remainingDirectoryEntries": 98,
-  "nextMissing": "Moffat",
+  "lastAdded": "Moffat",
+  "linkedGuides": 204,
+  "remainingDirectoryEntries": 97,
+  "nextMissing": "Monarch",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Minturn guide, directory and both sitemaps verified live. GitHub Pages URL redirects to canonical site. Pages deployment a78b7cefd71025887279975dcc300919c4e8a33d succeeded.",
+  "verification": "Moffat committed. Live verification pending.",
   "date": "2026-11-03"
 }
