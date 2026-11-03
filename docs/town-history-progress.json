@@ -1,9 +1,9 @@
 {
-  "lastAdded": "Morrison",
-  "linkedGuides": 208,
-  "remainingDirectoryEntries": 93,
-  "nextMissing": "Naturita",
+  "lastAdded": "Naturita",
+  "linkedGuides": 209,
+  "remainingDirectoryEntries": 92,
+  "nextMissing": "Nederland",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Morrison guide, directory and both sitemaps verified live. GitHub Pages URL redirects to canonical site. Pages deployment 00d324455b98f63c3fd6bedddf19930176a59f7b succeeded.",
+  "verification": "Naturita static checks passed. Live verification pending.",
   "date": "2026-11-03"
 }
