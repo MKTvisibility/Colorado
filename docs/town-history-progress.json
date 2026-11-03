@@ -4,6 +4,6 @@
   "remainingDirectoryEntries": 98,
   "nextMissing": "Moffat",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Minturn committed. Live verification pending.",
+  "verification": "Minturn guide, directory and both sitemaps verified live. GitHub Pages URL redirects to canonical site. Pages deployment a78b7cefd71025887279975dcc300919c4e8a33d succeeded.",
   "date": "2026-11-03"
 }
