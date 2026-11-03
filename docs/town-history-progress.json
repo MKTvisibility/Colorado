@@ -1,9 +1,9 @@
 {
-  "lastAdded": "McCoy",
-  "linkedGuides": 199,
-  "remainingDirectoryEntries": 102,
-  "nextMissing": "Meeker",
+  "lastAdded": "Meeker",
+  "linkedGuides": 200,
+  "remainingDirectoryEntries": 101,
+  "nextMissing": "Mesa",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "McCoy verified HTTP 200 with expected H1, history and canonical on both domains; directory and both sitemap links verified live. GitHub Pages deployment 991493175b3c6dc71514ed4b7deaa378dcafdf81 completed successfully.",
+  "verification": "Meeker static checks passed; deployment and live verification pending.",
   "date": "2026-11-02"
 }
