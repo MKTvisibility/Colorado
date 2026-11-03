@@ -4,6 +4,6 @@
   "remainingDirectoryEntries": 96,
   "nextMissing": "Monte Vista",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Monarch committed. Live verification pending.",
+  "verification": "Monarch guide, directory and both sitemaps verified live. GitHub Pages URL redirects to canonical site. Pages deployment e7893554b72292b742780f84dd5fb637c9be5211 succeeded.",
   "date": "2026-11-03"
 }
