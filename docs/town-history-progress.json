@@ -1,9 +1,9 @@
 {
-  "lastAdded": "Monte Vista",
-  "linkedGuides": 206,
-  "remainingDirectoryEntries": 95,
-  "nextMissing": "Monument",
+  "lastAdded": "Monument",
+  "linkedGuides": 207,
+  "remainingDirectoryEntries": 94,
+  "nextMissing": "Morrison",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Monte Vista guide, directory and both sitemaps verified live. GitHub Pages URL redirects to canonical site. Pages deployment 842a71264d05605078f3109064b9a4143d586ae1 succeeded.",
+  "verification": "Monument committed. Live verification pending.",
   "date": "2026-11-03"
 }
