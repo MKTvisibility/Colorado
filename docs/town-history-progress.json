@@ -4,6 +4,6 @@
   "remainingDirectoryEntries": 85,
   "nextMissing": "Olathe",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Oak Creek committed. Live verification pending.",
+  "verification": "Oak Creek guide, directory and both sitemaps verified live. GitHub Pages URL redirects to canonical site. Pages deployment c1dd647049ccda5248d87e3d59354aab6bbf8991 succeeded.",
   "date": "2026-11-04"
 }
