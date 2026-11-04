@@ -4,6 +4,6 @@
   "remainingDirectoryEntries": 92,
   "nextMissing": "Nederland",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Naturita static checks passed. Live verification pending.",
+  "verification": "Naturita guide, directory and both sitemaps verified live. GitHub Pages URL redirects to canonical site. Pages deployment e818d3b77d208e6aa6460d536430a3802ec29a54 succeeded.",
   "date": "2026-11-03"
 }
