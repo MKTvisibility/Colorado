@@ -4,6 +4,6 @@
   "remainingDirectoryEntries": 87,
   "nextMissing": "Nucla",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Norwood committed. Live verification pending.",
+  "verification": "Norwood guide, directory and both sitemaps verified live. GitHub Pages URL redirects to canonical site. Pages deployment eb85e6d70c686ef034c31e409bf5f42c0c45b6ea succeeded.",
   "date": "2026-11-04"
 }
