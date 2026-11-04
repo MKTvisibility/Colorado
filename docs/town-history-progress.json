@@ -1,9 +1,9 @@
 {
-  "lastAdded": "Naturita",
-  "linkedGuides": 209,
-  "remainingDirectoryEntries": 92,
-  "nextMissing": "Nederland",
+  "lastAdded": "Nederland",
+  "linkedGuides": 210,
+  "remainingDirectoryEntries": 91,
+  "nextMissing": "New Castle",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Naturita guide, directory and both sitemaps verified live. GitHub Pages URL redirects to canonical site. Pages deployment e818d3b77d208e6aa6460d536430a3802ec29a54 succeeded.",
+  "verification": "Nederland committed. Live verification pending.",
   "date": "2026-11-03"
 }
