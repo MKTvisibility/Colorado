@@ -1,9 +1,9 @@
 {
-  "lastAdded": "Oak Creek",
-  "linkedGuides": 216,
-  "remainingDirectoryEntries": 85,
-  "nextMissing": "Olathe",
+  "lastAdded": "Olathe",
+  "linkedGuides": 217,
+  "remainingDirectoryEntries": 84,
+  "nextMissing": "Orchard City",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Oak Creek guide, directory and both sitemaps verified live. GitHub Pages URL redirects to canonical site. Pages deployment c1dd647049ccda5248d87e3d59354aab6bbf8991 succeeded.",
+  "verification": "Olathe source and static checks completed; publication verification pending.",
   "date": "2026-11-04"
 }
