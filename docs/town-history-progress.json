@@ -4,6 +4,6 @@
   "remainingDirectoryEntries": 82,
   "nextMissing": "Ovid",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Ordway static checks passed; deployment verification pending.",
+  "verification": "Ordway guide, directory and both sitemaps verified HTTP 200 with expected content through both site URLs. Pages deployment 21ca2d450b749cea1864a4214b291d48bfea9672 succeeded. Static internal links and all 219 mapped targets passed.",
   "date": "2026-11-04"
 }
