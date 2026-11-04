@@ -1,9 +1,9 @@
 {
-  "lastAdded": "Nederland",
-  "linkedGuides": 210,
-  "remainingDirectoryEntries": 91,
-  "nextMissing": "New Castle",
+  "lastAdded": "New Castle",
+  "linkedGuides": 211,
+  "remainingDirectoryEntries": 90,
+  "nextMissing": "Niwot",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Nederland guide, directory and both sitemaps verified live. GitHub Pages URL redirects to canonical site. Pages deployment 8296358218b79198696cb4f00d5d741ea96d1a7e succeeded.",
+  "verification": "New Castle committed. Live verification pending.",
   "date": "2026-11-03"
 }
