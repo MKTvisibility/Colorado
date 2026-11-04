@@ -4,6 +4,6 @@
   "remainingDirectoryEntries": 83,
   "nextMissing": "Ordway",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Orchard City static checks passed; deployment verification pending.",
+  "verification": "Orchard City guide, directory and both sitemaps verified HTTP 200 with expected content through both site URLs. Pages deployment bc56354393a99d0b1ace42807b6794666e236a7e succeeded. Static internal links and all 218 mapped targets passed.",
   "date": "2026-11-04"
 }
