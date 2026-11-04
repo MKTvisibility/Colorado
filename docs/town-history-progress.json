@@ -1,9 +1,9 @@
 {
-  "lastAdded": "Northglenn",
-  "linkedGuides": 213,
-  "remainingDirectoryEntries": 88,
-  "nextMissing": "Norwood",
+  "lastAdded": "Norwood",
+  "linkedGuides": 214,
+  "remainingDirectoryEntries": 87,
+  "nextMissing": "Nucla",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Northglenn guide, directory and both sitemaps verified live. GitHub Pages URL redirects to canonical site. Pages deployment 8f6edbd7d970f520cc3d7b6282bcd7a386dd748f succeeded.",
+  "verification": "Norwood committed. Live verification pending.",
   "date": "2026-11-04"
 }
