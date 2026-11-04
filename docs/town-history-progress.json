@@ -4,6 +4,6 @@
   "remainingDirectoryEntries": 90,
   "nextMissing": "Niwot",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "New Castle committed. Live verification pending.",
+  "verification": "New Castle guide, directory and both sitemaps verified live. GitHub Pages URL redirects to canonical site. Pages deployment 0a3a66227be4c9cf15ad96bbab8f4413b5351d76 succeeded.",
   "date": "2026-11-03"
 }
