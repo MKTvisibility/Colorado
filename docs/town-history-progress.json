@@ -4,6 +4,6 @@
   "remainingDirectoryEntries": 84,
   "nextMissing": "Orchard City",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Olathe source and static checks completed; publication verification pending.",
+  "verification": "Olathe guide, directory and both sitemaps verified HTTP 200 with expected content through both site URLs. Pages deployment 3f7e3c73aaf6e435cffc451db778df7f7e229499 completed successfully. Static internal links and all 217 directory guide targets passed.",
   "date": "2026-11-04"
 }
