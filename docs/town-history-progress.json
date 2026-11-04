@@ -4,6 +4,6 @@
   "remainingDirectoryEntries": 88,
   "nextMissing": "Norwood",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Northglenn committed. Live verification pending.",
+  "verification": "Northglenn guide, directory and both sitemaps verified live. GitHub Pages URL redirects to canonical site. Pages deployment 8f6edbd7d970f520cc3d7b6282bcd7a386dd748f succeeded.",
   "date": "2026-11-04"
 }
