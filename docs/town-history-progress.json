@@ -1,9 +1,9 @@
 {
-  "lastAdded": "Nucla",
-  "linkedGuides": 215,
-  "remainingDirectoryEntries": 86,
-  "nextMissing": "Oak Creek",
+  "lastAdded": "Oak Creek",
+  "linkedGuides": 216,
+  "remainingDirectoryEntries": 85,
+  "nextMissing": "Olathe",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Nucla guide, directory and both sitemaps verified live. GitHub Pages URL redirects to canonical site. Pages deployment fc662b8723534b3504aa77fee335d392f5f007a8 succeeded.",
+  "verification": "Oak Creek committed. Live verification pending.",
   "date": "2026-11-04"
 }
