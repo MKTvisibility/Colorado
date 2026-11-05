@@ -1,9 +1,9 @@
 {
-  "lastAdded": "Parker",
-  "linkedGuides": 225,
-  "remainingDirectoryEntries": 76,
-  "nextMissing": "Parshall",
+  "lastAdded": "Parshall",
+  "linkedGuides": 226,
+  "remainingDirectoryEntries": 75,
+  "nextMissing": "Penrose",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Parker guide, directory and both sitemaps verified HTTP 200 with expected content through both site URLs. Pages deployment 86965c1cad037ffeb91c03684db4dd8ac3f21d79 succeeded. Static internal links and all 225 mapped targets passed.",
+  "verification": "Parshall static checks passed; deployment verification pending.",
   "date": "2026-11-05"
 }
