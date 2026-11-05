@@ -1,9 +1,9 @@
 {
-  "lastAdded": "Palmer Lake",
-  "linkedGuides": 222,
-  "remainingDirectoryEntries": 79,
-  "nextMissing": "Paonia",
+  "lastAdded": "Paonia",
+  "linkedGuides": 223,
+  "remainingDirectoryEntries": 78,
+  "nextMissing": "Parachute",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Palmer Lake guide, directory and both sitemaps verified HTTP 200 with expected content through both site URLs. Pages deployment 926ad164e3f19973a25ee32d43e63660b1295485 succeeded. Static internal links and all 222 mapped targets passed.",
+  "verification": "Paonia static checks passed; deployment verification pending.",
   "date": "2026-11-04"
 }
