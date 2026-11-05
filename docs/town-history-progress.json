@@ -1,9 +1,9 @@
 {
-  "lastAdded": "Peyton",
-  "linkedGuides": 228,
-  "remainingDirectoryEntries": 73,
-  "nextMissing": "Pitkin",
+  "lastAdded": "Pitkin",
+  "linkedGuides": 229,
+  "remainingDirectoryEntries": 72,
+  "nextMissing": "Placerville",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Peyton guide, directory and both sitemaps verified HTTP 200 with expected content through both site URLs. Pages deployment 51ae6a350fb0981af56fde49d881024248f17432 succeeded. Static internal links and all 228 mapped targets passed.",
+  "verification": "Pitkin static checks passed; deployment verification pending.",
   "date": "2026-11-05"
 }
