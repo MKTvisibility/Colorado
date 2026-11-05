@@ -4,6 +4,6 @@
   "remainingDirectoryEntries": 74,
   "nextMissing": "Peyton",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Penrose static checks passed; deployment verification pending.",
+  "verification": "Penrose guide, directory and both sitemaps verified HTTP 200 with expected content through both site URLs. Pages deployment 19bc0724470966e6a4c23c5212405c941efb0caa succeeded. Static internal links and all 227 mapped targets passed.",
   "date": "2026-11-05"
 }
