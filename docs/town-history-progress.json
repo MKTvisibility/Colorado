@@ -1,9 +1,9 @@
 {
-  "lastAdded": "Parshall",
-  "linkedGuides": 226,
-  "remainingDirectoryEntries": 75,
-  "nextMissing": "Penrose",
+  "lastAdded": "Penrose",
+  "linkedGuides": 227,
+  "remainingDirectoryEntries": 74,
+  "nextMissing": "Peyton",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Parshall guide, directory and both sitemaps verified HTTP 200 with expected content through both site URLs. Pages deployment def8163ba4f8e0741e5235637c252e7282b119bc succeeded. Static internal links and all 226 mapped targets passed.",
+  "verification": "Penrose static checks passed; deployment verification pending.",
   "date": "2026-11-05"
 }
