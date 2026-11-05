@@ -1,9 +1,9 @@
 {
-  "lastAdded": "Paonia",
-  "linkedGuides": 223,
-  "remainingDirectoryEntries": 78,
-  "nextMissing": "Parachute",
+  "lastAdded": "Parachute",
+  "linkedGuides": 224,
+  "remainingDirectoryEntries": 77,
+  "nextMissing": "Parker",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Paonia guide, directory and both sitemaps verified HTTP 200 with expected content through both site URLs. Pages deployment 4fe837e079054be37fcfe6e51aefecd5ee95365f succeeded. Static internal links and all 223 mapped targets passed.",
-  "date": "2026-11-04"
+  "verification": "Parachute static checks passed; deployment verification pending.",
+  "date": "2026-11-05"
 }
