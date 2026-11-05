@@ -4,6 +4,6 @@
   "remainingDirectoryEntries": 81,
   "nextMissing": "Palisade",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Ovid static checks passed; deployment verification pending.",
+  "verification": "Ovid guide, directory and both sitemaps verified HTTP 200 with expected content through both site URLs. Pages deployment 186e47453139d0b67ff47257bf8658969f632087 succeeded. Static internal links and all 220 mapped targets passed.",
   "date": "2026-11-04"
 }
