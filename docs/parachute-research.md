@@ -8,3 +8,8 @@ Primary sources located:
 - SAH Archipedia https://sah-archipedia.org/essays/CO-01-0004-0004-0004 — alternate chronology 1904–1980, avoid unsupported precision.
 
 Next: read municipal profile and school history; original 60–120 word summary; check duplicate existing town targets, current shell/footer and map; publish directory/sitemaps using fresh head expected SHA; verify live deployment. Municipality audit remains preliminary.
+
+## Verified primary document reading
+Downloaded municipal comprehensive plan directly and extracted text successfully. Printed page 13, Community Assessment / 1.1 Parachute Profile, confirms incorporation as Town of Grand Valley in 1908 and restoration of Parachute name in the 1980s. It describes agricultural crops from Battlement Mesa brought to town railroad for shipment. Wasson-McKay Place, built around 1902, listed National Register August 5, 2010 (5GF.4249), per municipal plan. Printed page 15 describes early-1980s energy bust, Exxon departure and Black Sunday May 2 (omit exact year unless independently sourced).
+
+Read school district full History of the Area section: agriculture early 1900s; 1980 Colony oil-shale expansion; Exxon stopped construction in 1982 with about 2,100 layoffs. Avoid 1986 precise rename date as municipal plan supports only 1980s. A concise guide can now be written from municipal profile, with school source for energy history. Both live homepages again HTTP 200. No guide yet published; counts unchanged.
