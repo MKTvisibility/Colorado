@@ -4,6 +4,6 @@
   "remainingDirectoryEntries": 75,
   "nextMissing": "Penrose",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Parshall static checks passed; deployment verification pending.",
+  "verification": "Parshall guide, directory and both sitemaps verified HTTP 200 with expected content through both site URLs. Pages deployment def8163ba4f8e0741e5235637c252e7282b119bc succeeded. Static internal links and all 226 mapped targets passed.",
   "date": "2026-11-05"
 }
