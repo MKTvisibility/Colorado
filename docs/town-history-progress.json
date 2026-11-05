@@ -1,9 +1,9 @@
 {
-  "lastAdded": "Parachute",
-  "linkedGuides": 224,
-  "remainingDirectoryEntries": 77,
-  "nextMissing": "Parker",
+  "lastAdded": "Parker",
+  "linkedGuides": 225,
+  "remainingDirectoryEntries": 76,
+  "nextMissing": "Parshall",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Parachute guide, directory and both sitemaps verified HTTP 200 with expected content through both site URLs. Pages deployment e10e4c6ec2be6fd3a217ca331d3cf770b06dd21a succeeded. Static internal links and all 224 mapped targets passed.",
+  "verification": "Parker static checks passed; deployment verification pending.",
   "date": "2026-11-05"
 }
