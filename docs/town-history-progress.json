@@ -1,9 +1,9 @@
 {
-  "lastAdded": "Pitkin",
-  "linkedGuides": 229,
-  "remainingDirectoryEntries": 72,
-  "nextMissing": "Placerville",
+  "lastAdded": "Placerville",
+  "linkedGuides": 230,
+  "remainingDirectoryEntries": 71,
+  "nextMissing": "Platteville",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Pitkin guide, directory and both sitemaps verified HTTP 200 with expected content through both site URLs. Pages deployment ce7ca848402b43a11fd1d816e0ba27afc83711aa succeeded. Static internal links and all 229 mapped targets passed.",
-  "date": "2026-11-05"
+  "verification": "Placerville static checks passed; deployment verification pending.",
+  "date": "2026-11-06"
 }
