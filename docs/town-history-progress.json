@@ -4,6 +4,6 @@
   "remainingDirectoryEntries": 71,
   "nextMissing": "Platteville",
   "municipalityAudit": "Preliminary CDOT dataset comparison saved in docs/municipality-audit.json; current status and aliases still require reconciliation.",
-  "verification": "Placerville static checks passed; deployment verification pending.",
+  "verification": "Placerville guide, directory and both sitemaps verified HTTP 200 with expected content through both site URLs. Pages deployment e291b079e156a66b99f8ded86ff3736e57c01f6d succeeded. Static internal links and all 230 mapped targets passed.",
   "date": "2026-11-06"
 }
