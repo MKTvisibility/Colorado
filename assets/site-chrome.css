@@ -22,3 +22,8 @@ footer .lln-sponsor-section{max-width:1120px;margin:30px auto 0;padding:28px 0;b
 
 /* Reduce excess space above the homepage section headings. */
 body.mkt-homepage .category-section,body.mkt-homepage .featured,body.mkt-homepage .regions,body.mkt-homepage .spotlight{padding-top:24px}
+
+/* Keep page-specific header rules from changing the shared site header. */
+header.site-header{box-sizing:border-box!important;width:100%!important;max-width:none!important;height:auto!important;min-height:0!important;margin:0!important;padding:0!important;border-radius:0!important}
+header.site-header .navbar{box-sizing:border-box!important;width:100%!important}
+header.site-header .mkt-makers-header{width:100%!important;max-width:none!important;margin:0!important;padding:0!important}
