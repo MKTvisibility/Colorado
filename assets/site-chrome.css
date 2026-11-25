@@ -27,3 +27,12 @@ body.mkt-homepage .category-section,body.mkt-homepage .featured,body.mkt-homepag
 header.site-header{box-sizing:border-box!important;width:100%!important;max-width:none!important;height:auto!important;min-height:0!important;margin:0!important;padding:0!important;border-radius:0!important}
 header.site-header .navbar{box-sizing:border-box!important;width:100%!important}
 header.site-header .mkt-makers-header{width:100%!important;max-width:none!important;margin:0!important;padding:0!important}
+
+/* Page titles and introductions sit on white beneath the common banner. */
+body :is(.food-intro,.hero,.page-hero,.intro,.page-intro,.title-section,.hero-content,.about-hero,.search-intro,.town-title,.townhero){
+ background:#fff!important;color:#203847!important;border-bottom:0!important;padding-top:24px!important;padding-bottom:24px!important
+}
+body :is(.food-intro,.hero,.page-hero,.intro,.page-intro,.title-section,.hero-content,.about-hero,.search-intro,.town-title,.townhero) :is(h1,h2,h3){color:#08283d!important}
+body :is(.food-intro,.hero,.page-hero,.intro,.page-intro,.title-section,.hero-content,.about-hero,.search-intro,.town-title,.townhero) p{color:#5d7280!important}
+body :is(.food-intro,.hero,.page-hero,.intro,.page-intro,.title-section,.hero-content,.about-hero,.search-intro,.town-title,.townhero) .eyebrow{color:#d8163d!important}
+body :is(.food-intro,.hero,.page-hero,.intro,.page-intro,.title-section,.hero-content,.about-hero,.search-intro,.town-title,.townhero) a:not([class]){color:#0060a8!important}
